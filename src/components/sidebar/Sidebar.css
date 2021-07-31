@@ -1,0 +1,28 @@
+.sidebar {
+    position: absolute;
+    top: 25%;
+    right: 1%;
+    width: 100px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.sidebar div{
+    margin: 15px;
+}
+
+.sidebar div .icon {
+    font-size: 30px;
+    color: white;
+    transition: all 0.1s ;
+}
+
+.sidebar div .icon:hover{
+    color: red;
+    transform: translateY(-2px) scale(1.3);
+}

@@ -1,0 +1,134 @@
+.outer_box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.marquee {
+	width: 90vw;
+	height: 280px;
+	background-color: black;
+	overflow-x: hidden;
+	position: relative;
+}
+
+.marquee-content {
+	list-style: none;
+	height: 100%;
+	display: flex;
+	animation: scrolling 20s linear infinite;
+	color: red;
+}
+.marquee-content li {
+	width: 22.5vw;
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 5rem;
+	white-space: nowrap;
+}
+
+.marquee::before,
+.marquee::after {
+	position: absolute;
+	top: 0;
+	width: 10rem;
+	height: 280px;
+	content: "";
+	z-index: 1;
+	background-color: teal;
+}
+.marquee::before {
+	left: 0;
+	background: linear-gradient(to right, rgb(0, 0, 0) 0%, transparent 100%);
+}
+.marquee::after {
+	right: 0;
+	background: linear-gradient(to left, rgb(0, 0, 0) 0%, transparent 100%);
+}
+.marquee-content:hover {
+	animation-play-state: paused;
+}
+
+.marquee_name {
+	position: absolute;
+	line-height: 6vw;
+	width: 350px;
+	font-size: 60px;
+	font-weight: 700;
+	right: 20%;
+	text-align: center;
+	background-color: white;
+	color: black;
+	height: 6vw;
+	transform: rotate(90deg);
+	z-index: 10;
+}
+
+.cards {
+	position: relative;
+	width: 70%;
+	height: 90%;
+	background-color: black;
+	padding: 20px 30px;
+	z-index: 1;
+}
+.cards::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(
+		red,
+		transparent,
+		transparent,
+		transparent,
+		white
+	);
+	z-index: -1;
+	transform: rotate(2deg);
+	transition: all 1s;
+}
+.cards::after {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	background: black;
+	z-index: -1;
+	transition: all 1s;
+}
+
+.cards:hover::before {
+	transform: rotate(0deg);
+}
+.cards:hover::after {
+	top: 1px;
+	bottom: 1px;
+	right: 1px;
+	left: 1px;
+}
+
+@media screen and (max-width : 900px){
+    .outer_box {
+        transform: scale(0.8);
+    }
+    .marquee_name{
+        display: none;
+    }
+}
+
+@keyframes scrolling {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-202.5vw);
+	}
+}

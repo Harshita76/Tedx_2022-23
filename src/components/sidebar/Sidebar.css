@@ -2,27 +2,45 @@
     position: absolute;
     top: 25%;
     right: 1%;
-    width: 100px;
     height: fit-content;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background-color: transparent;
-    z-index: 1;
+    z-index: 5;
 }
-
-.sidebar div{
-    margin: 15px;
-}
-
-.sidebar div .icon {
+.icon {
     font-size: 30px;
-    color: white;
-    transition: all 0.1s ;
+    margin-right: 20px;
+}
+.active{
+    text-decoration: none;
+    color:red;
+}
+.text {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.sidebar div .icon:hover{
-    color: red;
-    transform: translateY(-2px) scale(1.3);
+.slider {
+    width: 180px;
+    display: flex;    
+    justify-content:start;
+    align-items:center;
+    padding: 7.5%;
+    margin: 5%;
+    transition: 0.3s ease-in;
+    transform: translate(130px,0);
+}
+.slider:hover{
+    transform: translate(15px,0);
+}
+
+.inactive {
+    text-decoration: none;
+    color: white;
 }

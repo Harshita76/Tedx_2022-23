@@ -26,7 +26,7 @@ function Sidebar() {
 						</Link>
 					</div>
 					<div>
-						<Link to="">
+						<Link to="#">
 							<RiGalleryLine className="icon" />
 						</Link>
 					</div>

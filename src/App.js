@@ -1,12 +1,10 @@
 import './App.css';
 import Sidebar from './components/sidebar/Sidebar';
-import Previous_Speakers from './Previous_Speakers';
-
+import {Switch, Router} from "react-router-dom";
 function App() {
   return (
     <>
       <Sidebar />
-      <Previous_Speakers></Previous_Speakers>
     </>
   );
 }

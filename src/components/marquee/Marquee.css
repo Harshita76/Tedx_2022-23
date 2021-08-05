@@ -1,10 +1,5 @@
-.outer_box {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-}
 
+/* Marquee Styling */
 .marquee {
 	width: 90vw;
 	height: 280px;
@@ -12,7 +7,6 @@
 	overflow-x: hidden;
 	position: relative;
 }
-
 .marquee-content {
 	list-style: none;
 	height: 100%;
@@ -38,7 +32,6 @@
 	height: 280px;
 	content: "";
 	z-index: 1;
-	background-color: teal;
 }
 .marquee::before {
 	left: 0;
@@ -55,8 +48,8 @@
 .marquee_name {
 	position: absolute;
 	line-height: 6vw;
-	width: 350px;
-	font-size: 60px;
+	width: 20%;
+	font-size: xx-large;
 	font-weight: 700;
 	right: 20%;
 	text-align: center;
@@ -120,7 +113,7 @@
         transform: scale(0.8);
     }
     .marquee_name{
-        display: none;
+        transform: scale(0.6);
     }
 }
 

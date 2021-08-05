@@ -1,0 +1,37 @@
+canvas {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;   
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    position: absolute;
+    color: #e62b1e;
+    text-align: center;
+    margin-top: 30%;
+    margin-left: 45%;
+    display: none;
+}
+
+.speaker_homepage {
+    text-align: center;
+}
+
+.speaker_tedx_logo {
+    height: 200px;
+    width: 40vw;
+    z-index: 5;
+}
+
+.homepage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

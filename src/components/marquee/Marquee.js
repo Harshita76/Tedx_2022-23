@@ -19,7 +19,6 @@ function Marquee() {
 	];
 	return (
 		<>
-			<div className="outer_box">
 				<div className="marquee">
 					<ul className="marquee-content">
 						{sponsdata.map((card) => (
@@ -30,7 +29,6 @@ function Marquee() {
 					</ul>
 				</div>
 				<div className="marquee_name">SPONSORS</div>
-			</div>
 		</>
 	);
 }

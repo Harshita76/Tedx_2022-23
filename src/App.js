@@ -1,3 +1,4 @@
+
 import "./App.css";
 import Sidebar from "./components/sidebar/Sidebar";
 import Sponsors from "./pages/sponsors/Sponsors";
@@ -13,5 +14,6 @@ function App() {
 			</Switch>
 		</>
 	);
+
 }
 export default App;

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Sidebar.css";
 import { FiMic } from "react-icons/fi";
 import { RiContactsLine, RiGalleryLine } from "react-icons/ri";
@@ -6,37 +6,45 @@ import { HiOutlineHome, HiOutlineUserGroup } from "react-icons/hi";
 import { Link, BrowserRouter } from "react-router-dom";
 
 function Sidebar() {
+	const [sideNav, setSideNav] = useState({
+		activeNav: null,
+		objects: [
+			{ id: 1, iconTag: HiOutlineHome, link: "/", text: "Home" },
+			{ id: 2, iconTag: FiMic, link: "#", text: "Speakers" },
+			{ id: 3, iconTag: HiOutlineUserGroup, link: "/marquee", text: "Sponsors" },
+			{ id: 4, iconTag: RiGalleryLine, link: "#", text: "Gallary" },
+			{ id: 5, iconTag: RiContactsLine, link: "#", text: "Conatct Us" },
+		],
+	});
+	useEffect(() => {
+		setSideNav({ ...sideNav, activeNav: sideNav.objects[0] });
+	}, [])
+	function setActive(index) {
+		setSideNav({ ...sideNav, activeNav: sideNav.objects[index] });
+	}
+	function toggleActiveClass(index) {
+		if (sideNav.objects[index] == sideNav.activeNav) {
+			return "active";
+		} else {
+			return "inactive";
+		}
+	}
 	return (
 		<>
-			<BrowserRouter>
 				<div className="sidebar">
-					<div>
-						<Link to="#">
-							<HiOutlineHome className="icon" />
-						</Link>
-					</div>
-					<div>
-						<Link to="#">
-							<FiMic className="icon" />
-						</Link>
-					</div>
-					<div>
-						<Link to="#">
-							<HiOutlineUserGroup className="icon" />
-						</Link>
-					</div>
-					<div>
-						<Link to="#">
-							<RiGalleryLine className="icon" />
-						</Link>
-					</div>
-					<div>
-						<Link to="#">
-							<RiContactsLine className="icon" />
-						</Link>
-					</div>
+					{sideNav.objects.map((elements, index) => (
+							<Link to={elements.link} className={toggleActiveClass(index)} key={elements.id}>
+								<div className="slider"
+									onClick={() => setActive(index)}
+								>
+									<div>
+										<elements.iconTag className="icon" />
+									</div>
+									<div className="text">{elements.text}</div>
+								</div>
+							</Link>
+					))}
 				</div>
-			</BrowserRouter>
 		</>
 	);
 }

@@ -1,17 +1,11 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
 canvas {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     top: 0;
     right: 0;
     left: 0;
-    bottom: 0;
-    background-color: #000000;
+    bottom: 0;   
 }
 
 h1 {
@@ -30,10 +24,14 @@ h1 {
 }
 
 .speaker_tedx_logo {
-    position: relative;
-    height: 120px;
-    width: 400px;
+    height: 200px;
+    width: 40vw;
+    z-index: 5;
+}
+
+.homepage{
+    display: flex;
     justify-content: center;
-    padding-top: 45vh;
-    padding-left: 35%;
+    align-items: center;
+    height: 100vh;
 }

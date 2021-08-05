@@ -1,4 +1,4 @@
-var canvasDots = function() {
+export const canvasDots = function() {
     var canvas = document.querySelector('canvas'),
         ctx = canvas.getContext('2d'),
         colorDot = '#e62b1e',
@@ -18,7 +18,7 @@ var canvasDots = function() {
     var dots = {
         nb: 400,
         distance: 70,
-        d_radius: 90,
+        d_radius: 100,
         array: []
     };
 
@@ -100,6 +100,4 @@ var canvasDots = function() {
     setInterval(createDots, 1000 / 30);
 };
 
-window.onload = function() {
-    canvasDots();
-};
+

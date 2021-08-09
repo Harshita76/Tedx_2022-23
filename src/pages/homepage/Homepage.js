@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import tedxlogo from "../../assets/images/TedXLogo.png";
-import "../../components/homepage/Homepage_animation.js";
-import { canvasDots } from "../../components/homepage/Homepage_animation.js";
+import "../../components/homepage/homepage_animation.js";
+import { canvasDots } from "../../components/homepage/homepage_animation.js";
 import "./Homepage.css";
 
 const Homepage = () => {

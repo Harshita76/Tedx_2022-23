@@ -10,7 +10,7 @@ function Sidebar() {
 		activeNav: null,
 		objects: [
 			{ id: 1, iconTag: HiOutlineHome, link: "/", text: "Home" },
-			{ id: 2, iconTag: FiMic, link: "#", text: "Speakers" },
+			{ id: 2, iconTag: FiMic, link: "/prevspk", text: "Speakers" },
 			{ id: 3, iconTag: HiOutlineUserGroup, link: "/marquee", text: "Sponsors" },
 			{ id: 4, iconTag: RiGalleryLine, link: "#", text: "Gallary" },
 			{ id: 5, iconTag: RiContactsLine, link: "#", text: "Conatct Us" },

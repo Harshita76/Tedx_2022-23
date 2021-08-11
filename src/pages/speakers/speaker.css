@@ -1,0 +1,31 @@
+.speaker-homepage-background {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.speaker-homepage-img {
+    position: relative;
+    transform: scaleX(-1);
+    height: 60vh;
+    top: 40vh;
+    right: 10vw;
+    float: right;
+}
+
+.tedx-logo {
+    float: left;
+    height: 250px;
+    width: 500px;
+    padding-top: 3vh;
+}
+
+.speaker-homepage-title {
+    width: 100vw;
+    position: absolute;
+    color: #e62b1e;
+    text-align: center;
+    top: 35vh;
+    font-size: 60px;
+    letter-spacing: 2px;
+}

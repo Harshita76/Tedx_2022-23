@@ -5,18 +5,7 @@ canvas {
     top: 0;
     right: 0;
     left: 0;
-    bottom: 0;   
-}
-
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    position: absolute;
-    color: #e62b1e;
-    text-align: center;
-    margin-top: 30%;
-    margin-left: 45%;
-    display: none;
+    bottom: 0;
 }
 
 .speaker_homepage {
@@ -29,7 +18,7 @@ h1 {
     z-index: 5;
 }
 
-.homepage{
+.homepage {
     display: flex;
     justify-content: center;
     align-items: center;

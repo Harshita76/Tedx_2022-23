@@ -9,7 +9,7 @@ function Sidebar() {
 	const [sideNav, setSideNav] = useState({
 		activeNav: null,
 		objects: [
-			{ id: 1, iconTag: HiOutlineHome, link: "/", text: "Home" },
+			{ id: 1, iconTag: HiOutlineHome, link: "#", text: "Home" },
 			{ id: 2, iconTag: FiMic, link: "#", text: "Speakers" },
 			{ id: 3, iconTag: HiOutlineUserGroup, link: "/marquee", text: "Sponsors" },
 			{ id: 4, iconTag: RiGalleryLine, link: "#", text: "Gallary" },
@@ -23,7 +23,7 @@ function Sidebar() {
 		setSideNav({ ...sideNav, activeNav: sideNav.objects[index] });
 	}
 	function toggleActiveClass(index) {
-		if (sideNav.objects[index] == sideNav.activeNav) {
+		if (sideNav.objects[index] === sideNav.activeNav) {
 			return "active";
 		} else {
 			return "inactive";

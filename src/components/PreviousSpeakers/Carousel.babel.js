@@ -5,32 +5,32 @@ const slides = [
       title: "Speaker-1",
       subtitle: "Sub",
       description: "descr",
-      image:"https://cdn.pixabay.com/photo/2016/11/09/16/24/virus-1812092__480.jpg"
+      image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR44gb6gMDAsedQOqJylnHUYnOk25gEBN0crA&usqp=CAU"
     },
     {
         title: "Speaker-2",
         subtitle: "Sub",
         description: "descr",
-        image:"https://cdn.pixabay.com/photo/2016/11/09/16/24/virus-1812092__480.jpg"
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR44gb6gMDAsedQOqJylnHUYnOk25gEBN0crA&usqp=CAU"
     },
     {
         title: "Speaker-3",
         subtitle: "Sub",
         description: "descr",
         
-        image:"https://cdn.pixabay.com/photo/2016/11/09/16/24/virus-1812092__480.jpg"
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR44gb6gMDAsedQOqJylnHUYnOk25gEBN0crA&usqp=CAU"
     },
     {
         title: "Speaker-4",
         subtitle: "Sub",
         description: "descr",
-        image:"https://cdn.pixabay.com/photo/2016/11/09/16/24/virus-1812092__480.jpg"
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR44gb6gMDAsedQOqJylnHUYnOk25gEBN0crA&usqp=CAU"
     },
     {
         title: "Speaker-5",
         subtitle: "Sub",
         description: "descr",
-        image:"https://cdn.pixabay.com/photo/2016/11/09/16/24/virus-1812092__480.jpg"
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR44gb6gMDAsedQOqJylnHUYnOk25gEBN0crA&usqp=CAU"
     }
   ];
   

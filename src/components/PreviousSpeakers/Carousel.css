@@ -1,21 +1,30 @@
 @charset "UTF-8";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  position: relative;
+}
 
-
-.slideouter {
-  height: 100%;
+.aslides1 {
+  height: 100vh;
   width: 100%;
   margin: 0;
   padding: 0;
   font-size: 3vmin;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+.aslides2 {
   background: #151515;
   color: #fff;
   overflow: hidden;
 }
 
-
+.aslides3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .slides {
   display: grid;
@@ -23,20 +32,18 @@
 .slides > .slide {
   grid-area: 1/-1;
 }
-
-
 .slides > button {
   -webkit-appearance: none;
      -moz-appearance: none;
-     display: flex;
-  justify-content: space-between;      
-  position: relative;
+          appearance: none;
+  background: transparent;
+  border: none;
+  color: white;
+  position: absolute;
   font-size: 5rem;
-  width: 100px;
-  
-  top: -30vw;         
-      
-
+  width: 5rem;
+  height: 5rem;
+  top: 30%;
   transition: opacity 0.3s;
   opacity: 0.7;
   z-index: 5;
@@ -92,20 +99,9 @@
   letter-spacing: 0.2ch;
 }
 
-/* .slideBackground {
-  position: fixed;
-  top: 0;
-  left: -10%;
-  right: -10%;
-  bottom: 0;
-  background-size: cover;
-  background-position: center center;
-  z-index: -1;
-  opacity: 0;
-  transition: opacity 0.3s linear, transform 0.3s ease-in-out;
-  pointer-events: none;
-  transform: translateX(calc(10% * var(--dir)));
-} */
+.slideBackground {
+ color: white;
+}
 
 .slide[data-active] {
   z-index: 2;

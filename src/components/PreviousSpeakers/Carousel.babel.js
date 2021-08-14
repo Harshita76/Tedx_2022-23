@@ -5,7 +5,7 @@ const slides = [
       title: "Speaker-1",
       subtitle: "Sub",
       description: "descr",
-      image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR44gb6gMDAsedQOqJylnHUYnOk25gEBN0crA&usqp=CAU"
+      image: `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb5B99Tz6R9j_kf5ksbeBsIYd9ERzzryESBh0V5TEM3KPxA1crrXVdvdABHf97LHsa81M&usqp=CAU`
     },
     {
         title: "Speaker-2",

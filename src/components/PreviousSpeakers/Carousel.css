@@ -15,7 +15,7 @@
 }
 
 .aslides2 {
-  background: #151515;
+  /*background: #151515; */
   color: #fff;
   overflow: hidden;
 }
@@ -123,4 +123,10 @@
 .slide[data-active] .slideContent:hover {
   transition: none;
   transform: perspective(1000px) rotateY(calc(var(--x) * 45deg)) rotateX(calc(var(--y) * -45deg));
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
 }

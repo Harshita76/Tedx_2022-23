@@ -8,6 +8,7 @@ import "../../components/homepage/homepage_animation.js";
 import "./Homepage.css";
 import { Fade } from "react-awesome-reveal";
 
+import Rules from "../../components/Rules/Rules";
 
 const Homepage = () => {
     useEffect(() => {
@@ -39,6 +40,8 @@ const Homepage = () => {
                     </Fade>
                 </div>
             </section>
+            
+            <Rules/>
         </>
     );
 };

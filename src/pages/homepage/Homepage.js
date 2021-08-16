@@ -4,7 +4,7 @@ import "../../components/homepage/homepage_animation.js";
 import { canvasDots } from "../../components/homepage/homepage_animation.js";
 
 import themeImage from "../../assets/images/theme.png";
-import "../../components/homepage/Homepage_animation.js";
+import "../../components/homepage/homepage_animation.js";
 import "./Homepage.css";
 import { Fade } from "react-awesome-reveal";
 
@@ -17,7 +17,7 @@ const Homepage = () => {
         <>
         
             <div className="homepage">
-                <div><img className="speaker_tedx_logo" src={tedxlogo} alt="" /></div>
+                <div><img className="tedx_logo" src={tedxlogo} alt="" /></div>
             </div>
             <canvas className="dots" />
 

@@ -8,13 +8,14 @@ canvas {
     bottom: 0;
 }
 
-.speaker_homepage {
+.homepage {
     text-align: center;
 }
 
-.speaker_tedx_logo {
+.tedx_logo {
     height: 200px;
-    width: 40vw;
+    width: 500pxvw;
+    justify-content: center;
     z-index: 5;
 }
 
@@ -104,4 +105,32 @@ button:hover {
     background: transparent;
     border: 2px solid rgb(255, 42, 5);
     cursor: pointer;
+}
+
+
+/* custom scroll-bar */
+
+ ::-webkit-scrollbar {
+    width: 5px;
+}
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0 gray;
+    border-radius: 5px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background-color: #A9A9A9;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1211px) {
+    .canvas {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+    .homepage {
+        text-align: center;
+    }
 }

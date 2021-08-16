@@ -29,7 +29,7 @@ export const canvasDots = function() {
         this.vx = -.5 + Math.random();
         this.vy = -.5 + Math.random();
 
-        this.radius = Math.random();
+        this.radius = 2 * Math.random();
     }
 
     Dot.prototype = {
@@ -99,5 +99,3 @@ export const canvasDots = function() {
 
     setInterval(createDots, 1000 / 30);
 };
-
-

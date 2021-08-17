@@ -7,6 +7,7 @@
     flex-direction: column;
     background-color: transparent;
     z-index: 5;
+    transform: translate(130px,0);
 }
 .icon {
     font-size: 30px;
@@ -34,10 +35,10 @@
     padding: 7.5%;
     margin: 5%;
     transition: 0.3s ease-in;
-    transform: translate(130px,0);
+    
 }
 .slider:hover{
-    transform: translate(15px,0);
+    transform: translate(-115px,0);
 }
 
 .inactive {
@@ -49,5 +50,11 @@
     .sidebar{
         transform: scale(0.8);
         right: 0px;
+    }
+}
+
+@media screen and (max-width: 1026px) {
+    .sidebar {
+        display: none;
     }
 }

@@ -1,8 +1,8 @@
-
 /* Marquee Styling */
 .marquee {
 	width: 90vw;
-	height: 280px;
+	height: fit-content;
+	padding: 10px;
 	background-color: black;
 	overflow-x: hidden;
 	position: relative;
@@ -15,7 +15,7 @@
 	color: red;
 }
 .marquee-content li {
-	width: 22.5vw;
+	width: 20vw;
 	flex-shrink: 0;
 	display: flex;
 	align-items: center;
@@ -28,17 +28,17 @@
 .marquee::after {
 	position: absolute;
 	top: 0;
-	width: 10rem;
-	height: 280px;
+	width: 10vw;
+	bottom: 0;
 	content: "";
 	z-index: 1;
 }
 .marquee::before {
-	left: 0;
+	left: -0.5vw;
 	background: linear-gradient(to right, rgb(0, 0, 0) 0%, transparent 100%);
 }
 .marquee::after {
-	right: 0;
+	right: -0.5vw;
 	background: linear-gradient(to left, rgb(0, 0, 0) 0%, transparent 100%);
 }
 .marquee-content:hover {
@@ -57,15 +57,16 @@
 	color: black;
 	height: 6vw;
 	transform: rotate(90deg);
-	z-index: 10;
+	z-index: 1;
 }
 
 .cards {
 	position: relative;
-	width: 70%;
-	height: 90%;
+	width: 80%;
+	height: 100%;
 	background-color: black;
-	padding: 20px 30px;
+	padding: 8px 12px;
+	margin: 10px;
 	z-index: 1;
 }
 .cards::before {
@@ -73,17 +74,12 @@
 	position: absolute;
 	top: 0;
 	left: 0;
+	border-radius: 20px;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(
-		red,
-		transparent,
-		transparent,
-		transparent,
-		white
-	);
+	background: linear-gradient(red, transparent, white);
 	z-index: -1;
-	transform: rotate(2deg);
+	transform: rotate(3deg);
 	transition: all 1s;
 }
 .cards::after {
@@ -93,6 +89,7 @@
 	left: 0px;
 	bottom: 0px;
 	right: 0px;
+	border-radius: 20px;
 	background: black;
 	z-index: -1;
 	transition: all 1s;
@@ -108,13 +105,38 @@
 	left: 1px;
 }
 
-@media screen and (max-width : 900px){
-    .outer_box {
-        transform: scale(0.8);
-    }
-    .marquee_name{
-        transform: scale(0.6);
-    }
+@media screen and (max-width: 900px) {
+	.outer_box {
+		transform: scale(0.8);
+	}
+	.marquee::before,
+	.marquee::after {
+		width: 5vw;
+	}
+	.marquee-content li {
+		width: 40vw;
+	}
+	@keyframes scrolling {
+		0% {
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(-480vw);
+		}
+	}
+	.marquee {
+		width: 95vw;
+	}
+}
+
+.pic {
+	height: 100%;
+	padding: 8px 12px;
+	width: fit-content;
+}
+.pic img {
+	height: 100%;
+	width: 100%;
 }
 
 @keyframes scrolling {
@@ -122,6 +144,6 @@
 		transform: translateX(0);
 	}
 	100% {
-		transform: translateX(-202.5vw);
+		transform: translateX(-240vw);
 	}
 }

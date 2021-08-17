@@ -23,7 +23,7 @@ const Homepage = () => {
             <canvas className="dots" />
 
 
-            <section className="theme">
+            {/*<section className="theme">
                 <Fade direction="up" delay={300}>
                     <h2>Theme</h2>
                 </Fade>
@@ -39,7 +39,7 @@ const Homepage = () => {
                         </div>
                     </Fade>
                 </div>
-            </section>
+    </section>*/}
             
             <Rules/>
         </>

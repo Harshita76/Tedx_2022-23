@@ -1,0 +1,24 @@
+img {
+	border-radius: 5px;
+	height: auto;
+	width: 10rem;
+}
+
+div {
+	text-align: center;
+}
+
+small {
+	display: block;
+}
+
+a {
+	color: #343078;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 1025px) {
+	.ham {
+		display: none;
+	}
+}

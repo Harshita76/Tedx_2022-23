@@ -14,9 +14,9 @@ canvas {
 
 .tedx_logo {
     height: 200px;
-    width: 500pxvw;
+    width: 50vw;
     justify-content: center;
-    z-index: 5;
+    z-index: 15;
 }
 
 .homepage {
@@ -28,12 +28,6 @@ canvas {
 
 
 /* theme-page */
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
 .theme {
     width: 100%;

@@ -1,31 +1,30 @@
 .speaker-homepage-background {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: black;
 }
 
-.speaker-homepage-img {
+.video {
     position: relative;
-    transform: scaleX(-1);
-    height: 60vh;
-    top: 40vh;
-    right: 10vw;
-    float: right;
-}
-
-.tedx-logo {
-    float: left;
-    height: 220px;
-    width: 520px;
-    padding-top: 3vh;
-}
-
-.speaker-homepage-title {
+    object-fit: cover;
+    background-size: cover;
     width: 100vw;
-    position: absolute;
-    color: #e62b1e;
-    text-align: center;
-    top: 35vh;
-    font-size: 60px;
-    letter-spacing: 2px;
+    height: 100vh;
+    right: 0;
+    bottom: 0;
 }
+
+.mike {
+    position: relative;
+    bottom: 57vh;
+    align-items: center;
+    height: 50vh;
+}
+
+
+/* .logo {
+    display: flex;
+    position: relative;
+    bottom: 1010px;
+    left: 0;
+} */

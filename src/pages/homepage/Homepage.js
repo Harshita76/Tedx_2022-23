@@ -1,19 +1,30 @@
-import React, { useEffect } from "react";
+import React, {  useEffect } from "react";
 import tedxlogo from "../../assets/images/TedXLogo.png";
 import "../../components/homepage/homepage_animation.js";
 import { canvasDots } from "../../components/homepage/homepage_animation.js";
-
+import { particles } from "../../components/homepage/homepage_paricles";
 import themeImage from "../../assets/images/theme.png";
 import "../../components/homepage/homepage_animation.js";
 import "./Homepage.css";
 import { Fade } from "react-awesome-reveal";
 
 import Rules from "../../components/Rules/Rules";
+import { useWindowSize } from "react-hooks-window-size";
+
+
 
 const Homepage = () => {
+
+    const size = useWindowSize(1500, 1500);
+
+
     useEffect(() => {
-        canvasDots();
-    }, [])
+        if (size.width >= 1010)
+            canvasDots();
+        else
+            particles();
+    },[size.width])
+
     return (
         <>
         

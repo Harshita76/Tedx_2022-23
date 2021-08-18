@@ -127,4 +127,9 @@ button:hover {
     .homepage {
         text-align: center;
     }
+    .tedx_logo {
+        height: 20vh;
+        width: 90%;
+        align-items: center;
+    }
 }

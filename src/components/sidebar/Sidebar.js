@@ -10,8 +10,8 @@ function Sidebar() {
 		activeNav: null,
 		objects: [
 			{ id: 1, iconTag: HiOutlineHome, link: "/", text: "Home" },
-			{ id: 2, iconTag: FiMic, link: "/prevspk", text: "Speakers" },
-			{ id: 3, iconTag: HiOutlineUserGroup, link: "/marquee", text: "Sponsors" },
+			{ id: 2, iconTag: FiMic, link: "/speaker", text: "Speakers" },
+			{ id: 3, iconTag: HiOutlineUserGroup, link: "/sponsor", text: "Sponsors" },
 			{ id: 4, iconTag: RiGalleryLine, link: "#", text: "Gallary" },
 			{ id: 5, iconTag: RiContactsLine, link: "#", text: "Conatct Us" },
 		],
@@ -23,7 +23,7 @@ function Sidebar() {
 		setSideNav({ ...sideNav, activeNav: sideNav.objects[index] });
 	}
 	function toggleActiveClass(index) {
-		if (sideNav.objects[index] == sideNav.activeNav) {
+		if (sideNav.objects[index] === sideNav.activeNav) {
 			return "active";
 		} else {
 			return "inactive";
@@ -34,9 +34,7 @@ function Sidebar() {
 				<div className="sidebar">
 					{sideNav.objects.map((elements, index) => (
 							<Link to={elements.link} className={toggleActiveClass(index)} key={elements.id}>
-								<div className="slider"
-									onClick={() => setActive(index)}
-								>
+								<div className="slider" onClick={() => setActive(index)}>
 									<div>
 										<elements.iconTag className="icon" />
 									</div>

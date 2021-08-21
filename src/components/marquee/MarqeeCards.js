@@ -1,10 +1,12 @@
 import React from "react";
-import "./Marquee.css"
-function MarqeeCards() {
+import "./Marquee.css";
+function MarqeeCards({ source }) {
 	return (
 		<>
 			<div className="cards">
-				<div className="pic"></div>
+				<div className="pic">
+					<img src={source} alt="picture" />
+				</div>
 			</div>
 		</>
 	);

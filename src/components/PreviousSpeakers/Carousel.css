@@ -43,7 +43,7 @@
   font-size: 5rem;
   width: 5rem;
   height: 5rem;
-  top: 30%;
+  top: 50%;
   transition: opacity 0.3s;
   opacity: 0.7;
   z-index: 5;
@@ -62,6 +62,8 @@
 }
 
 .slideContent {
+  border-radius: 15px;
+  filter: blur(4px);
   width: 30vw;
   height: 40vw;
   background-size: cover;
@@ -104,6 +106,7 @@
 }
 
 .slide[data-active] {
+  
   z-index: 2;
   pointer-events: auto;
 }
@@ -115,6 +118,7 @@
   opacity: 1;
 }
 .slide[data-active] .slideContent {
+  filter: blur(0px);
   --x: calc(var(--px) - 0.5);
   --y: calc(var(--py) - 0.5);
   opacity: 1;
@@ -123,10 +127,4 @@
 .slide[data-active] .slideContent:hover {
   transition: none;
   transform: perspective(1000px) rotateY(calc(var(--x) * 45deg)) rotateX(calc(var(--y) * -45deg));
-}
-
-canvas {
-  display: block;
-  width: 100vw;
-  height: 100vh;
 }

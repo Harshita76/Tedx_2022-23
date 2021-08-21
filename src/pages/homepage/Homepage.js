@@ -6,7 +6,7 @@ import { particles } from "../../components/homepage/homepage_paricles";
 import themeImage from "../../assets/images/theme.png";
 import "../../components/homepage/homepage_animation.js";
 import "./Homepage.css";
-import { Fade } from "react-awesome-reveal";
+/* import { Fade } from "react-awesome-reveal"; */
 
 import Rules from "../../components/Rules/Rules";
 import { useWindowSize } from "react-hooks-window-size";

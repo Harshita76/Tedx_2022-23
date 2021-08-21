@@ -9,7 +9,7 @@ function Previous_Speakers() {
         <>
         
         <div className="outer_box aslides1 aslides2 aslides3">
-        <h1>Previous Speaker</h1>
+        
         <div style={{marginTop: "25px"}}>
         
         <Prevspk />

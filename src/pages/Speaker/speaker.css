@@ -2,10 +2,17 @@
     height: 100vh;
     width: 100%;
     background-color: black;
+    text-align: center;
+}
+
+.background {
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
 }
 
 .video {
-    position: relative;
+    position: absolute;
     object-fit: cover;
     background-size: cover;
     width: 100vw;
@@ -15,16 +22,81 @@
 }
 
 .mike {
-    position: relative;
-    bottom: 57vh;
-    align-items: center;
-    height: 50vh;
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    right: 35vw;
+    position: absolute;
+    bottom: 0vh;
+    height: 70vh;
+    width: 300px;
 }
 
-
-/* .logo {
-    display: flex;
-    position: relative;
-    bottom: 1010px;
+.logo {
+    position: absolute;
     left: 0;
-} */
+    top: 26px;
+    height: 110px;
+    width: 350px;
+    /* z-index: 5; */
+}
+
+.animation {
+    text-align: center;
+    /* background: linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%); */
+    color: #555;
+    font-family: 'Helvetica';
+    font-weight: 500;
+    font-size: 50px;
+    padding-top: 40vh;
+    height: 100vh;
+    overflow: hidden;
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translate3d(0, 0, 0);
+}
+
+.speaker-title {
+    color: #e62b41;
+    letter-spacing: 5px;
+}
+
+.animation div {
+    display: inline-block;
+    overflow: hidden;
+    white-space: wrap;
+}
+
+.animation div span {
+    margin-left: -355px;
+    animation: slidein 4s 1 forwards;
+    z-index: 10;
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: -800px;
+    }
+    20% {
+        margin-left: -800px;
+    }
+    35% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 0px;
+        visibility: visible;
+        animation-play-state: paused;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .mike {
+        right: 0;
+    }
+    .logo {
+        height: 100px;
+        width: 285px;
+        top: 35px;
+    }
+}

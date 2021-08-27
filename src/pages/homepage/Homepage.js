@@ -26,7 +26,6 @@ const Homepage = () => {
 
     return (
         <>
-
             <div className="homepage">
                 <div><img className="tedx_logo" src={tedxlogo} alt="" /></div>
             </div>

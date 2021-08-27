@@ -20,37 +20,42 @@
 .slides {
   display: grid;
 }
-.slides > .slide {
+
+.slides>.slide {
   grid-area: 1/-1;
 }
 
 
-.slides > button {
+.slides>button {
   -webkit-appearance: none;
-     -moz-appearance: none;
-     display: flex;
-  justify-content: space-between;      
+  -moz-appearance: none;
+  display: flex;
+  justify-content: space-between;
   position: relative;
   font-size: 5rem;
   width: 100px;
-  
-  top: -30vw;         
-      
+
+  top: -30vw;
+
 
   transition: opacity 0.3s;
   opacity: 0.7;
   z-index: 5;
 }
-.slides > button:hover {
+
+.slides>button:hover {
   opacity: 1;
 }
-.slides > button:focus {
+
+.slides>button:focus {
   outline: none;
 }
-.slides > button:first-child {
+
+.slides>button:first-child {
   left: -50%;
 }
-.slides > button:last-child {
+
+.slides>button:last-child {
   right: -50%;
 }
 
@@ -75,6 +80,7 @@
   text-shadow: 0 0.1rem 1rem #000;
   opacity: 0;
 }
+
 .slideContentInner .slideSubtitle,
 .slideContentInner .slideTitle {
   font-size: 2rem;
@@ -83,9 +89,11 @@
   text-transform: uppercase;
   margin: 0;
 }
+
 .slideContentInner .slideSubtitle::before {
   content: "— ";
 }
+
 .slideContentInner .slideDescription {
   margin: 0;
   font-size: 0.8rem;
@@ -111,19 +119,23 @@
   z-index: 2;
   pointer-events: auto;
 }
+
 .slide[data-active] .slideBackground {
   opacity: 0.2;
   transform: none;
 }
+
 .slide[data-active] .slideContentInner {
   opacity: 1;
 }
+
 .slide[data-active] .slideContent {
   --x: calc(var(--px) - 0.5);
   --y: calc(var(--py) - 0.5);
   opacity: 1;
   transform: perspective(1000px);
 }
+
 .slide[data-active] .slideContent:hover {
   transition: none;
   transform: perspective(1000px) rotateY(calc(var(--x) * 45deg)) rotateX(calc(var(--y) * -45deg));

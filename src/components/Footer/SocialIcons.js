@@ -1,6 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react"
 import "./SocialIcons.css"
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube, IconName } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 
 export default function SocialIcons() {
     return (

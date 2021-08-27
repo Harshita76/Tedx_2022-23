@@ -14,8 +14,8 @@ export default function Theme() {
                 </Fade>
                 <div className="main">
                     <Fade direction="left" delay={300} triggerOnce>
-                    <div className="theme-img">
-                        <img src={themeImage} alt="tedx" className="themeImage"/>
+                        <div className="theme-img">
+                            <img src={themeImage} alt="tedx" className="themeImage" />
                         </div>
                     </Fade>
                     <Fade direction="right" delay={300} triggerOnce>

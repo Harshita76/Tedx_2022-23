@@ -28,16 +28,16 @@ canvas {
 
 /* custom scroll-bar */
 
- ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 5px;
 }
 
- ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     box-shadow: inset 0 0 0 gray;
     border-radius: 5px;
 }
 
- ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background-color: #A9A9A9;
     border-radius: 5px;
 }
@@ -48,9 +48,11 @@ canvas {
         height: 100%;
         width: 100%;
     }
+
     .homepage {
         text-align: center;
     }
+
     .tedx_logo {
         height: 20vh;
         width: 90%;

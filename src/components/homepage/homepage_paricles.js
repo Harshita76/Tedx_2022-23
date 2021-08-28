@@ -1,4 +1,4 @@
-export const particles = function () {
+export const particles = function() {
     var canvas = document.querySelector('canvas'),
         ctx = canvas.getContext('2d'),
         colorDot = '#e62b1e',
@@ -33,13 +33,13 @@ export const particles = function () {
     }
 
     Dot.prototype = {
-        create: function () {
+        create: function() {
             ctx.beginPath();
             ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
             ctx.fill();
         },
 
-        animate: function () {
+        animate: function() {
             for (var i = 0; i < dots.nb; i++) {
 
                 var dot = dots.array[i];
@@ -89,7 +89,7 @@ export const particles = function () {
         dot.animate();
     }
 
-    window.onmousemove = function (parameter) {
+    window.onmousemove = function(parameter) {
         mousePosition.x = parameter.pageX;
         mousePosition.y = parameter.pageY;
     }

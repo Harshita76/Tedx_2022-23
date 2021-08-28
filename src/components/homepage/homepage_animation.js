@@ -98,4 +98,18 @@ export const canvasDots = function() {
     mousePosition.y = window.innerHeight / 2;
 
     setInterval(createDots, 1000 / 30);
+
+    var checkpoint = 500;
+
+    window.addEventListener("scroll", () => {
+        const scroll = window.pageYOffset;
+        if (scroll <= checkpoint) {
+            var opacity = 1 - scroll / checkpoint;
+        }
+        var dots = document.querySelector('canvas');
+
+        if (dots !== null) {
+            dots.style.opacity = opacity;
+        }
+    });
 };

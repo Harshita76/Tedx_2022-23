@@ -32,17 +32,19 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-.box{
+.box {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: auto;
 }
+
 .box>*:first-child {
   align-self: stretch;
 }

@@ -3,6 +3,7 @@ import "./Sidebar.css";
 import { FiMic } from "react-icons/fi";
 import { RiContactsLine, RiGalleryLine } from "react-icons/ri";
 import { HiOutlineHome, HiOutlineUserGroup } from "react-icons/hi";
+import {GiPlayerPrevious} from 'react-icons/gi';
 import { Link, BrowserRouter } from "react-router-dom";
 
 function Sidebar() {
@@ -11,7 +12,7 @@ function Sidebar() {
 		objects: [
 			{ id: 1, iconTag: HiOutlineHome, link: "/", text: "Home" },
 			{ id: 2, iconTag: FiMic, link: "/speaker", text: "Speakers" },
-			{ id: 2, iconTag: FiMic, link: "/prevspk", text: "Previous Speakers" },
+			{ id: 2, iconTag: GiPlayerPrevious, link: "/prevspk", text: "Previous Speakers" },
 			{ id: 3, iconTag: HiOutlineUserGroup, link: "/sponsor", text: "Sponsors" },
 			{ id: 4, iconTag: RiGalleryLine, link: "#", text: "Gallary" },
 			{ id: 5, iconTag: RiContactsLine, link: "#", text: "Conatct Us" },

@@ -1,10 +1,15 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from "react";
 import "./Sidebar.css";
 import { FiMic } from "react-icons/fi";
 import { RiContactsLine, RiGalleryLine } from "react-icons/ri";
 import { HiOutlineHome, HiOutlineUserGroup } from "react-icons/hi";
+<<<<<<< HEAD
 import {GiPlayerPrevious} from 'react-icons/gi';
 import { Link, BrowserRouter } from "react-router-dom";
+=======
+import { Link } from "react-router-dom";
+>>>>>>> parent of 9388ced (Revert "Merge remote-tracking branch 'upstream/main' into main")
 
 function Sidebar() {
 	const [sideNav, setSideNav] = useState({
@@ -33,18 +38,18 @@ function Sidebar() {
 	}
 	return (
 		<>
-				<div className="sidebar">
-					{sideNav.objects.map((elements, index) => (
-							<Link to={elements.link} className={toggleActiveClass(index)} key={elements.id}>
-								<div className="slider" onClick={() => setActive(index)}>
-									<div>
-										<elements.iconTag className="icon" />
-									</div>
-									<div className="text">{elements.text}</div>
-								</div>
-							</Link>
-					))}
-				</div>
+			<div className="sidebar">
+				{sideNav.objects.map((elements, index) => (
+					<Link to={elements.link} className={toggleActiveClass(index)} key={elements.id}>
+						<div className="slider" onClick={() => setActive(index)}>
+							<div>
+								<elements.iconTag className="icon" />
+							</div>
+							<div className="text">{elements.text}</div>
+						</div>
+					</Link>
+				))}
+			</div>
 		</>
 	);
 }

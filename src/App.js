@@ -6,7 +6,7 @@ import Speakers from "./pages/Speaker/speaker";
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import Ham from "./components/hamburger/Ham";
-import Previous_Speakers from "./pages/Speakers_Prev/Speakers"
+import Previous_Speakers from "./pages/Speakers_Prev/Speakers_prev";
 
 function App() {
 	return (

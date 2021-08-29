@@ -4,9 +4,9 @@ import "./Sponsors.css"
 function Sponsors() {
     return (
         <>
-            <div className="outer_box">
-                <Marquee />
-            </div>
+        <div className="outer_box">
+            <Marquee />
+        </div>
         </>
     )
 }

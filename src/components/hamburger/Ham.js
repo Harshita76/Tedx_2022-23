@@ -49,26 +49,26 @@ const StyledMenu = styled.nav`
 	}
 `;
 
-const Menu = ({ open, clicked, setClicked }) => {
+const Menu = ({ open, clicked, setClicked}) => {
 	return (
 		<StyledMenu open={open}>
 			<Link to="/">
-				<a href="/" onClick={() => setClicked(!clicked)} ><HiOutlineHome style={{ color: "red" }} /> Home</a>
+				<a href="/" onClick={() => setClicked(!clicked)} ><HiOutlineHome style={{color:"red"}} /> Home</a>
 			</Link>
 			<Link to="speaker">
-				<a href="/" onClick={() => setClicked(!clicked)}><FiMic style={{ color: "red" }} /> Speakers</a>
+				<a href="/" onClick={() => setClicked(!clicked)}><FiMic style={{color:"red"}}/> Speakers</a>
 			</Link>
 			<Link to="prevspk">
 				<a href="/" onClick={() => setClicked(!clicked)}><GiPlayerPrevious style={{color:"red"}}/> Previous Speakers</a>
 			</Link>
 			<Link to="sponsor">
-				<a href="/" onClick={() => setClicked(!clicked)}><HiOutlineUserGroup style={{ color: "red" }} />  Sponsors</a>
+				<a href="/" onClick={() => setClicked(!clicked)}><HiOutlineUserGroup style={{color:"red"}} />  Sponsors</a>
 			</Link>
-			<Link to="/">
-				<a href="/" onClick={() => setClicked(!clicked)}><RiGalleryLine style={{ color: "red" }} />  Gallery</a>
+            <Link to="/">
+				<a href="/" onClick={() => setClicked(!clicked)}><RiGalleryLine style={{color:"red"}} />  Gallery</a>
 			</Link>
-			<Link to="/">
-				<a href="/" onClick={() => setClicked(!clicked)}><RiContactsLine style={{ color: "red" }} /> Contact Us</a>
+            <Link to="/">
+				<a href="/" onClick={() => setClicked(!clicked)}><RiContactsLine style={{color:"red"}}/> Contact Us</a>
 			</Link>
 		</StyledMenu>
 	);
@@ -110,7 +110,7 @@ const StyledBurger = styled.button`
 		:nth-child(2) {
 			opacity: ${({ open }) => (open ? "0" : "1")};
 			transform: ${({ open }) =>
-		open ? "translateX(-20px)" : "translateX(0)"};
+				open ? "translateX(-20px)" : "translateX(0)"};
 		}
 
 		:nth-child(3) {
@@ -131,16 +131,16 @@ const Burger = ({ open, setOpen }) => {
 
 const Ham = () => {
 	const [open, setOpen] = React.useState(false);
-	const [clicked, setClicked] = React.useState(false);
-	const node = React.useRef();
-	useEffect(() => {
-		setOpen(false);
-	}, [clicked])
+    const [clicked, setClicked] = React.useState(false);
+    const node = React.useRef();
+    useEffect(() => {
+        setOpen(false);
+    }, [clicked])
 	return (
 		<div className="ham">
 			<div ref={node}>
 				<Burger open={open} setOpen={setOpen} />
-				<Menu open={open} setOpen={setOpen} clicked={clicked} setClicked={setClicked} />
+				<Menu open={open} setOpen={setOpen} clicked={clicked} setClicked={setClicked}/>
 			</div>
 		</div>
 	);

@@ -1,36 +1,69 @@
 import React from "react";
 import './Carousel.css';
+import img1 from './1.png';
+import img2 from './2.png';
+import img3 from './3.png';
+import img4 from './4.png';
+import img5 from './5.png';
+import img6 from './6.png';
+import img7 from './7.png';
+import img8 from './8.png';
+import img9 from './9.png';
 const slides = [
     {
       title: "Speaker-1",
       subtitle: "Sub",
       description: "descr",
-      image: `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb5B99Tz6R9j_kf5ksbeBsIYd9ERzzryESBh0V5TEM3KPxA1crrXVdvdABHf97LHsa81M&usqp=CAU`
+      image: img1
     },
     {
         title: "Speaker-2",
         subtitle: "Sub",
         description: "descr",
-        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR44gb6gMDAsedQOqJylnHUYnOk25gEBN0crA&usqp=CAU"
+        image: img2
     },
     {
         title: "Speaker-3",
         subtitle: "Sub",
         description: "descr",
         
-        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR44gb6gMDAsedQOqJylnHUYnOk25gEBN0crA&usqp=CAU"
+        image: img3
     },
     {
         title: "Speaker-4",
         subtitle: "Sub",
         description: "descr",
-        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR44gb6gMDAsedQOqJylnHUYnOk25gEBN0crA&usqp=CAU"
+        image: img4
     },
     {
         title: "Speaker-5",
         subtitle: "Sub",
         description: "descr",
-        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR44gb6gMDAsedQOqJylnHUYnOk25gEBN0crA&usqp=CAU"
+        image: img5
+    },
+    {
+        title: "Speaker-6",
+        subtitle: "Sub",
+        description: "descr",
+        image: img6
+    },
+    {
+        title: "Speaker-7",
+        subtitle: "Sub",
+        description: "descr",
+        image: img7
+    },
+    {
+        title: "Speaker-8",
+        subtitle: "Sub",
+        description: "descr",
+        image: img8
+    },
+    {
+        title: "Speaker-9",
+        subtitle: "Sub",
+        description: "descr",
+        image: img9
     }
   ];
   

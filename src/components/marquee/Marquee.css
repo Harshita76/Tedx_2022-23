@@ -43,8 +43,7 @@
 }
 .marquee-content:hover {
 	animation-play-state: paused;
-}
-
+}/*
 .marquee_name {
 	position: absolute;
 	line-height: 6vw;
@@ -58,7 +57,7 @@
 	height: 6vw;
 	transform: rotate(90deg);
 	z-index: 1;
-}
+}*/
 
 .cards {
 	position: relative;
@@ -106,9 +105,6 @@
 }
 
 @media screen and (max-width: 900px) {
-	.outer_box {
-		transform: scale(0.8);
-	}
 	.marquee::before,
 	.marquee::after {
 		width: 5vw;
@@ -130,6 +126,9 @@
 }
 
 .pic {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	height: 100%;
 	padding: 8px 12px;
 	width: fit-content;
@@ -145,5 +144,37 @@
 	}
 	100% {
 		transform: translateX(-240vw);
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.marquee-content {
+		animation: none;
+		height: fit-content;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.marquee{
+	background-color: transparent;
+	width: 100vw;	
+	}
+	.marquee::after {
+		display: none;
+	}
+	.marquee::before {
+		display: none;
+	}
+	.marquee-content > li {
+		margin: 10px;
+	}
+	.cards {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.marquee-content > li {
+		width: 60vw;
 	}
 }

@@ -48,8 +48,7 @@
 
 @media  screen and (max-width: 1100px) {
     .sidebar{
-        transform: scale(0.8);
-        right: 0px;
+        transform: scale(0.8) translate(150px,0);
     }
 }
 

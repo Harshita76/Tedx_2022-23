@@ -1,6 +1,8 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react"
 import "./Footer.css"
-import { FaFacebook, FaInstagram, FaLinkedin, FaLinkedinIn, FaTwitter, FaYoutube, IconName } from "react-icons/fa";
+import SocialIcons from "./SocialIcons"
+
 export default function Footer() {
     return (
         <>
@@ -14,11 +16,7 @@ export default function Footer() {
                         <div className="footer-col2">
                             <h4 className="footer-heading footer-link">Follow Us</h4>
                             <div className="footer-social">
-                                <a href="#" className="footer-icon fbicon"><FaFacebook /></a>
-                                <a href="#" className="footer-icon twicon"><FaTwitter /></a>
-                                <a href="#" className="footer-icon igicon"><FaInstagram /></a>
-                                <a href="#" className="footer-icon yticon"><FaYoutube /></a>
-                                <a href="#" className="footer-icon inicon"><FaLinkedin /></a>
+                                <SocialIcons />
                             </div>
                         </div>
                         <div className="footer-col3">

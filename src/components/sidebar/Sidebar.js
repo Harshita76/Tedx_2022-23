@@ -14,8 +14,8 @@ function Sidebar() {
 			{ id: 2, iconTag: FiMic, link: "/speaker", text: "Speakers" },
 			{ id: 2, iconTag: GiPlayerPrevious, link: "/prevspk", text: "Previous Speakers" },
 			{ id: 3, iconTag: HiOutlineUserGroup, link: "/sponsor", text: "Sponsors" },
-			{ id: 4, iconTag: RiGalleryLine, link: "#", text: "Gallery" },
-			{ id: 5, iconTag: RiContactsLine, link: "/contactus", text: "Contact Us" },
+			{ id: 4, iconTag: RiGalleryLine, link: "#", text: "Gallary" },
+			{ id: 5, iconTag: RiContactsLine, link: "#", text: "Conatct Us" },
 		],
 	});
 	useEffect(() => {

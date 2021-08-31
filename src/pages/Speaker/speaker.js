@@ -1,14 +1,13 @@
 import React from "react";
 import mike from '../../assets/images/new_mike.png';
 import logo from '../../assets/images/TedXLogo.png';
-import './speaker_background';
 import './speaker.css';
-import video from '../../assets/images/red_stage_light.mp4'
+import video from '../../assets/images/latest_stage_video.mp4'
 
 const Speaker = () => {
     return(
         <>
-            <div className='background'>
+            <div>
                 <video className="video" autoPlay loop muted>
                     <source src={video} type='video/mp4'/>
                 </video>
@@ -22,7 +21,7 @@ const Speaker = () => {
                     </div>
                 </div>
 
-            {/* <div className='speaker-homepage-background'></div> */}
+            <div className='speaker-homepage-background'></div>
             <div>
                 <div className='background'></div>
             </div>

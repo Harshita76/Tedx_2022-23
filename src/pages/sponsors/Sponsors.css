@@ -1,54 +1,6 @@
-.landing-page {
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    /* z-index: 1; */
-}
-
-#title {
-    color: #e62b1e;
-    position: absolute;
-    width: 100%;
-    top: 45vh;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-}
-
-.landing-page img {
-    position: absolute;
-    z-index: 1;
-    top: 3vh;
-    left: 2vw;
-    width: 350px;
-    height: 120px;
-}
-
 .outer_box {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-@media only screen and (max-width: 540px) {
-    .landing-page img {
-        top: 26px;
-        height: 90px;
-        width: 280px;
-    }
-}
-
-@media only screen and (width: 320px) {
-    .landing-page img {
-        top: 4vh;
-        height: 80px;
-        width: 235px;
-    }
-    /* display: flex;
-	min-height: 100vh;
-	justify-content: center;
+	display: flex;
 	align-items: center;
-	height: fit-content; */
+	justify-content: center;
+	height: 100vh;
 }

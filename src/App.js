@@ -6,6 +6,8 @@ import Speakers from "./pages/speakers/speaker";
 import { Switch, Route} from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import Ham from "./components/hamburger/Ham";
+// import ContactUs from "./pages/contactUs/contactUs";
+
 function App() {
 	return (
 		<>
@@ -15,6 +17,7 @@ function App() {
 				<Route exact path="/" component={Homepage} />
 				<Route path="/sponsor" component={Sponsors} />
 				<Route path="/speaker" component={Speakers} />
+				{/* <Route path="/contactus" component={ContactUs} /> */}
 			</Switch>
 			<Footer />
 		</>

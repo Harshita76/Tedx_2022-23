@@ -22,7 +22,7 @@ const Speaker = () => {
                 </div>
             </div>
 
-            <div className='speaker-homepage-background'></div>
+            {/* <div className='speaker-homepage-background'></div> */}
             <div>
                 <div className='background'></div>
             </div>

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { FiMic } from "react-icons/fi";
 import { RiContactsLine, RiGalleryLine } from "react-icons/ri";
 import { HiOutlineHome, HiOutlineUserGroup } from "react-icons/hi";
-import {GiPlayerPrevious} from 'react-icons/gi';
+
 import { useEffect } from "react";
 const StyledMenu = styled.nav`
 	display: flex;
@@ -58,9 +58,7 @@ const Menu = ({ open, clicked, setClicked}) => {
 			<Link to="speaker">
 				<a href="/" onClick={() => setClicked(!clicked)}><FiMic style={{color:"red"}}/> Speakers</a>
 			</Link>
-			<Link to="prevspk">
-				<a href="/" onClick={() => setClicked(!clicked)}><GiPlayerPrevious style={{color:"red"}}/> Previous Speakers</a>
-			</Link>
+			
 			<Link to="sponsor">
 				<a href="/" onClick={() => setClicked(!clicked)}><HiOutlineUserGroup style={{color:"red"}} />  Sponsors</a>
 			</Link>

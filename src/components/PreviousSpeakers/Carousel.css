@@ -3,7 +3,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  position: relative;
+  position: initial;
 }
 
 .aslides1 {
@@ -55,10 +55,10 @@
   outline: none;
 }
 .slides > button:first-child {
-  left: -50%;
+  left: 10%;
 }
 .slides > button:last-child {
-  right: -50%;
+  right: 10%;
 }
 
 .slideContent {

@@ -5,38 +5,32 @@
 }
 
 .social {
+    height: fit-content;
     font-size: 1.2em;
-    height: 50px;
-    overflow: hidden;
-    border-bottom: 1px solid #abc;
 }
 
-a {
-    position: relative;
-    top: 30px;
-    margin: 0 10px;
-}
-
-a:hover {
-    top: 5px;
-}
 
 .fb {
     color: #1877f2;
+    margin: 10px;
 }
 
 .tw {
     color: #1da1f2;
+    margin: 10px;
 }
 
 .yt {
     color: #ff0000;
+    margin: 10px;
 }
 
 .ig {
     color: #c32aa3;
+    margin: 10px;
 }
 
 .li {
     color: #0a66c2;
+    margin: 10px;
 }

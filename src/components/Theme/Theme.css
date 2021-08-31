@@ -1,7 +1,7 @@
 /* theme-page */
 
 .theme {
-    width: 100%;
+    width: 100vw;
     padding: 80px 25px;
     /* background-color: #191919; */
     background-color: black;

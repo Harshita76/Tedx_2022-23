@@ -46,4 +46,9 @@
         height: 80px;
         width: 235px;
     }
+    /* display: flex;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+	height: fit-content; */
 }

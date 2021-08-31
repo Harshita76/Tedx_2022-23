@@ -162,6 +162,13 @@
 }
 
 @media screen and (max-width: 700px) {
+	.marquee-content {
+		animation: none;
+		height: fit-content;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
 	
 	.marquee{
 	background-color: transparent;

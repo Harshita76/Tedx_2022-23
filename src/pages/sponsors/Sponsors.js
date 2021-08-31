@@ -36,11 +36,11 @@ function Sponsors() {
             <canvas id='sponsor_homepage' />
             <h1 id='title'>SPONSORS</h1>
         </div>
+        <div className="spons_heading"><span>PREVIOUS YEAR</span> SPONSORS</div>
         <div className="outer_box">
             <Marquee />
         </div>
         </>
     )
 }
-
 export default Sponsors

@@ -1,7 +1,7 @@
 /* theme-page */
 
 .theme {
-    width: 100vw;
+    width: 100%;
     padding: 80px 25px;
     /* background-color: #191919; */
     background-color: black;
@@ -53,9 +53,10 @@ span {
     margin-bottom: 45px;
     letter-spacing: 1px;
     line-height: 28px;
+    padding: 20px;
 }
 
-button {
+.theme_btn {
     background: rgb(255, 42, 5);
     color: white;
     text-decoration: none;
@@ -67,13 +68,13 @@ button {
     transition: .4s;
 }
 
-button:hover {
+.theme_btn:hover {
     background: transparent;
     border: 2px solid rgb(255, 42, 5);
     cursor: pointer;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 950px) {
 
     .main {
         flex-direction: column;
@@ -87,4 +88,4 @@ button:hover {
     .main {
         padding: 2px;
     }
-}
+} 

@@ -25,11 +25,12 @@
 }
 
 .outer_box {
-    position: relative;
+    
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: fit-content;
+    padding: 20px 30px;
 }
 
 @media only screen and (max-width: 540px) {
@@ -39,4 +40,18 @@
     top: 4vh;
     height: 80px;
     width: 235px;
+}
+
+
+.spons_heading {
+    font-size: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.spons_heading > span {
+    color: #e62b1e;
 }

@@ -17,19 +17,18 @@ export default function Footer() {
                                 <a href="#" className="footer-icon fbicon"><FaFacebook /></a>
                                 <a href="#" className="footer-icon twicon"><FaTwitter /></a>
                                 <a href="#" className="footer-icon igicon"><FaInstagram /></a>
-                                <a href="#" className="footer-icon yticon"><FaYoutube /></a>
                                 <a href="#" className="footer-icon inicon"><FaLinkedin /></a>
                             </div>
                         </div>
                         <div className="footer-col3">
                             <h4 className="footer-heading footer-link">Contact Us</h4>
                             <a className="footer-email footer-link" href="#">tedx@hyderabad.bits-pilani.ac.in</a>
-                            <button className="footer-contact"><a className="footer-contact-us footer-link" href="#">Contact Us</a></button>
+                            <button className="footer-contact"><a className="footer-contact-us" href="/contactus">Contact Us</a></button>
                         </div>
                     </div>
                 </div>
                 <div className="footer-row2">
-                    <div className="footer-copyright footer-link">© TED Conferences, LLC. All rights reserved.</div>
+                    <div className="footer-copyright ">© TED Conferences, LLC. All rights reserved.</div>
                 </div>
             </div>
         </>

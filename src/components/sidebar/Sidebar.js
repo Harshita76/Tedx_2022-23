@@ -14,7 +14,7 @@ function Sidebar() {
 			{ id: 2, iconTag: FiMic, link: "/speaker", text: "Speakers" },
 			
 			{ id: 3, iconTag: HiOutlineUserGroup, link: "/sponsor", text: "Sponsors" },
-			{ id: 4, iconTag: RiGalleryLine, link: "#", text: "Gallery" },
+			{ id: 4, iconTag: RiGalleryLine, link: "/gallery", text: "Gallery" },
 			{ id: 5, iconTag: RiContactsLine, link: "/contactus", text: "Contact Us" },
 		],
 	});

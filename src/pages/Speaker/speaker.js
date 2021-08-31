@@ -4,7 +4,7 @@ import logo from '../../assets/images/TedXLogo.png';
 import './speaker_background';
 import './speaker.css';
 import video from '../../assets/images/red_stage_light.mp4'
-
+import Previous_Speakers from '../Speakers_Prev/Speakers_prev'
 const Speaker = () => {
     return(
         <>
@@ -25,6 +25,9 @@ const Speaker = () => {
             {/* <div className='speaker-homepage-background'></div> */}
             <div>
                 <div className='background'></div>
+            </div>
+            <div className='boxcontent'>
+                <Previous_Speakers />
             </div>
         </>
     );

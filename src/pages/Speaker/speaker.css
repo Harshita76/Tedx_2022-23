@@ -90,6 +90,12 @@
         animation-play-state: paused;
     }
 }
+.boxcontent{
+    position: relative;
+
+    align-items: center;
+    justify-content: center;
+}
 
 @media only screen and (max-width: 765px) {
     .mike {

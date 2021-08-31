@@ -5,11 +5,12 @@
     text-align: center;
 }
 
-.background {
+
+/* .background {
     height: 100vh;
     width: 100%;
     background-color: #000000;
-}
+} */
 
 .video {
     position: absolute;
@@ -57,7 +58,7 @@
 }
 
 .speaker-title {
-    color: #e62b41;
+    color: #000000;
     letter-spacing: 5px;
 }
 
@@ -98,5 +99,13 @@
         height: 100px;
         width: 285px;
         top: 35px;
+    }
+}
+
+@media only screen and (width: 320px) {
+    .logo {
+        top: 4vh;
+        height: 80px;
+        width: 235px;
     }
 }

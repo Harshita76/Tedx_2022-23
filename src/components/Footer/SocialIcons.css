@@ -1,0 +1,36 @@
+.wrap {
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.social {
+    height: fit-content;
+    font-size: 1.2em;
+}
+
+
+.fb {
+    color: #1877f2;
+    margin: 10px;
+}
+
+.tw {
+    color: #1da1f2;
+    margin: 10px;
+}
+
+.yt {
+    color: #ff0000;
+    margin: 10px;
+}
+
+.ig {
+    color: #c32aa3;
+    margin: 10px;
+}
+
+.li {
+    color: #0a66c2;
+    margin: 10px;
+}

@@ -13,13 +13,8 @@ function Sidebar() {
 			{ id: 1, iconTag: HiOutlineHome, link: "/", text: "Home" },
 			{ id: 2, iconTag: FiMic, link: "/speaker", text: "Speakers" },
 			{ id: 3, iconTag: HiOutlineUserGroup, link: "/sponsor", text: "Sponsors" },
-<<<<<<< HEAD
 			{ id: 4, iconTag: RiGalleryLine, link: "#", text: "Gallery" },
 			{ id: 5, iconTag: RiContactsLine, link: "/contactus", text: "Contact Us" },
-=======
-			{ id: 4, iconTag: RiGalleryLine, link: "#", text: "Gallary" },
-			{ id: 5, iconTag: RiContactsLine, link: "#", text: "Contact Us" },
->>>>>>> 16b7fd5ef1f3e747c88334cacce8283e3bc30dd2
 		],
 	});
 	useEffect(() => {

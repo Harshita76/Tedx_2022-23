@@ -113,13 +113,6 @@
 }
 
 @media screen and (max-width: 900px) {
-<<<<<<< HEAD
-=======
-	.outer_box {
-		transform: scale(0.8);
-	}
-
->>>>>>> f2a06ee7c761c7710afce906bf199b27c9139ca2
 	.marquee::before,
 	.marquee::after {
 		width: 5vw;
@@ -169,13 +162,7 @@
 }
 
 @media screen and (max-width: 700px) {
-	.marquee-content {
-		animation: none;
-		height: fit-content;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-	}
+	
 	.marquee{
 	background-color: transparent;
 	width: 100vw;	

@@ -37,6 +37,7 @@ function Highlights() {
 				autoPlay
 				centerMode
 				infiniteLoop
+				centerSlidePercentage={100}
 				showStatus={false}
 				showThumbs={false}
 				showIndicators={false}

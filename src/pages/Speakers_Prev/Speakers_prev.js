@@ -14,10 +14,9 @@ function Previous_Speakers() {
        
         <div className="outer_box aslides1 aslides2 aslides3">
         <div style={{position:"relative !important"}}>
-        <div style={{marginTop: "25px"}}>
+        
         
         <Prevspk />
-        </div>
         </div>
         </div>
         

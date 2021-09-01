@@ -25,7 +25,7 @@ const ContactUs = (props) => {
         separation: 75.00,
         alignment: 10.00,
         cohesion: 1.00,
-        quantity: 5.00
+        quantity: 4.00
       }))
     }
     return () => {

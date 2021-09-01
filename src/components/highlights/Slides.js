@@ -9,20 +9,14 @@ function Slides({ heading, desc, link, btn_text, bg }) {
 		background-position: center;
 		background-size: cover;
         bacground-repeat: no-repeat;
-		height: 90vh;
-		width: 80vw;
-        display:flex;
-        align-items: center;
-        justify-content: center;
+		height: 60vh;
+		width: 70vw;
 	`;
 	return (
-		<Slide>
+		<Slide className="slide">
 			<div className="slide_details">
 				<div className="slide_heading">{heading}</div>
 				<div className="slide_description">{desc}</div>
-				<Link to={link} className="slide_btn">
-					<div>{btn_text}</div>
-				</Link>
 			</div>
 		</Slide>
 	);

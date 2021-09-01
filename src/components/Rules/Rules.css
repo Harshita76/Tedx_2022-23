@@ -73,6 +73,7 @@ border-radius: 10px;
     background-color: red;
 }
 .rules-description{
+    text-align: justify;
     color: white;
     font-size: 20px;
     margin: 30px;

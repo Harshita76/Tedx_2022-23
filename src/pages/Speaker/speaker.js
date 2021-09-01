@@ -26,6 +26,7 @@ const Speaker = () => {
             <div>
                 <div className='background'></div>
             </div>
+            <div className="speak_heading"><span>PREVIOUS YEAR</span> SPEAKERS</div>
             <div className='boxcontent'>
                 <Previous_Speakers />
             </div>

@@ -69,7 +69,7 @@ const Form = ({ submitForm }) => {
 								className="form-input"
 								type="textbox"
 								name="message"
-								
+
 								rows="5"
 								placeholder="Message"
 								value={values.message}
@@ -78,7 +78,7 @@ const Form = ({ submitForm }) => {
 						</div>
 						<div className="lower">
 							<button className="form-input-btn" type="submit">
-								Sign up
+								Submit
 							</button>
 						</div>
 					</form>

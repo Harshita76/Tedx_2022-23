@@ -11,16 +11,16 @@ import ContactUs from "./pages/contactUs/contactUs";
 function App() {
 	return (
 		<>
-		<Ham />
+			<Ham />
 			<Sidebar />
 			<Switch>
-				<Route exact path="/" component={Homepage} />
 				<Route path="/sponsor" component={Sponsors} />
 				<Route path="/speaker" component={Speakers} />
 				<Route path="/gallery" component={Gallery} />
 				<Route path="/contactus" component={ContactUs} />
+				<Route exact path="/" component={Homepage} />
 			</Switch>
-			<Footer/>
+			<Footer />
 		</>
 	);
 

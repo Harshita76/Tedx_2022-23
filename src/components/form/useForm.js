@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { firestore } from "../../config"
 
 const useForm = (callback, validate) => {
   const [values, setValues] = useState({
@@ -19,9 +20,14 @@ const useForm = (callback, validate) => {
 
   const handleSubmit = e => {
     e.preventDefault();
+    firestore.collection("contactQueries").doc().set({
+      values
+    }).then(() => {
 
-    setErrors(validate(values));
-    setIsSubmitting(true);
+      setIsSubmitting(true);
+    }).catch(error => {
+      setErrors(validate(values), error);
+    })
   };
 
   useEffect(

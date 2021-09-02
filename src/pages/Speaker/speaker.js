@@ -5,6 +5,7 @@ import "./speaker_background";
 import "./speaker.css";
 import video from "../../assets/images/red_stage_light.mp4";
 import Previous_Speakers from "../Speakers_Prev/Speakers_prev";
+import { Link } from "react-router-dom";
 const Speaker = () => {
 	return (
 		<>
@@ -12,7 +13,7 @@ const Speaker = () => {
 				<video className="video" autoPlay loop muted>
 					<source src={video} type="video/mp4" />
 				</video>
-				<img src={logo} alt="logo" className="logo" />
+				<Link to="/"><img src={logo} alt="logo" className="sponsorship-logo" /></Link>
 			
 			<div className="title">
 				<div className="title_head">

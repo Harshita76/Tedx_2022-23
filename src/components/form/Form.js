@@ -69,7 +69,7 @@ const Form = ({ submitForm }) => {
 								className="form-input"
 								type="textbox"
 								name="message"
-								cols="40"
+								
 								rows="5"
 								placeholder="Message"
 								value={values.message}

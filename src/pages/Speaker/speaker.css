@@ -14,7 +14,14 @@
     justify-content: center;
     /* z-index: 1; */
 } 
-
+.background img {
+    position: absolute;
+    z-index: 1;
+    top: 3vh;
+    left: 2vw;
+    width: 350px;
+    height: 120px;
+}
 .video {
     position: absolute;
     object-fit: cover;
@@ -36,14 +43,6 @@
     width: 300px;
 }
 
-.logo {
-    position: absolute;
-    left: 0;
-    top: 26px;
-    height: 110px;
-    width: 350px;
-    /* z-index: 5; */
-}
 
 .animation {
     text-align: center;

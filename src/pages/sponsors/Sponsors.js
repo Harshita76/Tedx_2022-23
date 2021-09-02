@@ -4,6 +4,7 @@ import logo from "../../assets/images/TedXLogo.png";
 import "./Sponsors.css";
 import { useWindowSize } from "react-hooks-window-size";
 import { background } from "./sponsor_background";
+import { Link } from "react-router-dom";
 
 function Sponsors() {
 	const size = useWindowSize(1500, 1500);
@@ -24,7 +25,7 @@ function Sponsors() {
 	return (
 		<>
 			<div className="landing-page">
-				<img src={logo} className="sponsorpage-logo" alt="" />
+				<Link to="/"><img src={logo} className="sponsorpage-logo" alt="" /></Link>
 				<canvas id="sponsor_homepage" />
 				<div className="title">
 					<div className="title_head">

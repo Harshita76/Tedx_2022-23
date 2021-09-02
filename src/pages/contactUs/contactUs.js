@@ -4,6 +4,7 @@ import BIRDS from "vanta/dist/vanta.birds.min";
 import "./contactUs.css";
 import "./contactUs_animation";
 import Form from "../../components/form/Form";
+import { Link } from "react-router-dom";
 const ContactUs = (props) => {
 	const [vantaEffect, setVantaEffect] = useState(0);
 	const myRef = useRef(null);
@@ -37,7 +38,7 @@ const ContactUs = (props) => {
 	return (
 		<>
 			<div className="animated-bg">
-				<img src={logo} className="sponsor-page-logo" alt="" />
+				<Link to="/"><img src={logo} className="sponsor-page-logo" alt="" /></Link>
 				<div className="title">
 					<div className="title_head">
 						<h1>Contact Us</h1>

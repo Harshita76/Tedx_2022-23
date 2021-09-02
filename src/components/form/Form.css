@@ -93,7 +93,7 @@
 .form-input:hover {
 	border-bottom: red 2px solid;
 	background-color: inherit;
-	font-size: 22px;
+
 }
 .wrapper {
 	height: 300px;

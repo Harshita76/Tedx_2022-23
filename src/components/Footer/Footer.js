@@ -1,6 +1,7 @@
 import React from "react"
 import "./Footer.css"
 import { FaFacebook, FaInstagram, FaLinkedin, FaLinkedinIn, FaTwitter, FaYoutube, IconName } from "react-icons/fa";
+import { Link } from "react-router-dom";
 export default function Footer() {
     return (
         <>
@@ -14,16 +15,16 @@ export default function Footer() {
                         <div className="footer-col2">
                             <h4 className="footer-heading footer-link">Follow Us</h4>
                             <div className="footer-social">
-                                <a href="#" className="footer-icon fbicon"><FaFacebook /></a>
-                                <a href="#" className="footer-icon twicon"><FaTwitter /></a>
-                                <a href="#" className="footer-icon igicon"><FaInstagram /></a>
-                                <a href="#" className="footer-icon inicon"><FaLinkedin /></a>
+                                <a href="https://www.facebook.com/search/top?q=tedxbitshyderabad" target="_blank" rel="noopener noreferrer" className="footer-icon fbicon"><FaFacebook /></a>
+                                <a href="https://twitter.com/tedxbitshyd?lang=en" target="_blank" rel="noopener noreferrer" className="footer-icon twicon"><FaTwitter /></a>
+                                <a href="https://www.instagram.com/tedxbitshyderabad/?hl=en" target="_blank" rel="noopener noreferrer" className="footer-icon igicon"><FaInstagram /></a>
+                                <a href="https://www.linkedin.com/company/tedxbitshyderabad/mycompany/" target="_blank" rel="noopener noreferrer" className="footer-icon inicon"><FaLinkedin /></a>
                             </div>
                         </div>
                         <div className="footer-col3">
                             <h4 className="footer-heading footer-link">Contact Us</h4>
                             <a className="footer-email footer-link" href="#">tedx@hyderabad.bits-pilani.ac.in</a>
-                            <button className="footer-contact"><a className="footer-contact-us" href="/contactus">Contact Us</a></button>
+                            <button className="footer-contact"><Link className="footer-contact-us" to="/contactus">Contact Us</Link></button>
                         </div>
                     </div>
                 </div>

@@ -4,7 +4,7 @@
 	align-items: center;
 }
 .form-left {
-	transform: translate(50%, 20%);
+	transform: translateX(30%);
 	background: rgb(179, 5, 5);
 	background: linear-gradient(
 		0deg,
@@ -16,12 +16,10 @@
 	transition: 0.1s;
 	z-index: 1;
 }
-.form-content-right {
-	transform: translate(-2%, 0px);
+.form-right {
 	-webkit-border-radius: 14px;
 	border-radius: 14px;
 	background: rgba(255, 255, 255, 0.1);
-
 	backdrop-filter: blur(9px);
 	-webkit-backdrop-filter: blur(9px);
 	border-radius: 10px;
@@ -29,18 +27,20 @@
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	width: 700px;
+	width: fit-content;
 	margin: 5%;
-	height: 550px;
+	height: fit-content;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	transition: 0.1s;
-	z-index: 0;
+	padding: 20px 100px;
 }
 
 .tedxicem h2 {
 	font-size: 70px;
+	display: inline;
+	width: 100%;
 	color: red;
 	font-family: "Arimo", sans-serif;
 	display: inline;
@@ -48,9 +48,12 @@
 .form-inputs {
 	margin-top: 50px;
 	color: white;
+	
 }
 .form-input {
 	color: white;
+	width: 100%;
+	padding: 10px;
 }
 .lower {
 	display: flex;
@@ -146,3 +149,24 @@ h1.venue {
 .layer {
 	margin-top: 50px;
 }
+
+@media screen and (max-width:1100px) {
+	.form-left {
+		display: none;
+	}
+	.form-right {
+		width: 80vw;
+	}
+	.form-input{
+		width: 70vw;
+	}
+}
+
+@media screen and (max-width:650px) {
+	.tedxicem h2 {
+		font-size: 40px;
+	}
+}
+
+
+

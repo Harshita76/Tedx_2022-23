@@ -183,8 +183,8 @@ export const background = function() {
         //else {
         //      opacity = 0;
         // }
-        var body = document.querySelector('#sponsor_homepage');
-        var title = document.querySelector('#title');
+        var body = document.querySelector('.sponsor_homepage');
+        var title = document.querySelector('.title');
 
         if (body !== null && title !== null) {
 

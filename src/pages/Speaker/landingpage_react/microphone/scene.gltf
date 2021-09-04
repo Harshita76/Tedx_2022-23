@@ -1,0 +1,830 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 318,
+      "max": [
+        0.63515013456344604,
+        0.6353914737701416,
+        1.4825515747070312
+      ],
+      "min": [
+        -0.63515013456344604,
+        -0.63490879535675049,
+        -2.867253303527832
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3816,
+      "componentType": 5126,
+      "count": 318,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 318,
+      "max": [
+        1,
+        1,
+        0.99886173009872437,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -0.46763858199119568,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 318,
+      "max": [
+        0.97713446617126465,
+        0.70888650417327881
+      ],
+      "min": [
+        0.057330906391143799,
+        0.0052722860127687454
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 1320,
+      "max": [
+        317
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 7632,
+      "componentType": 5126,
+      "count": 33,
+      "max": [
+        0.077544160187244415,
+        -0.44206854701042175,
+        0.20529592037200928
+      ],
+      "min": [
+        -0.077544152736663818,
+        -0.62116730213165283,
+        -0.086581945419311523
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 8028,
+      "componentType": 5126,
+      "count": 33,
+      "max": [
+        1,
+        0.07115008682012558,
+        0.99823081493377686
+      ],
+      "min": [
+        -1,
+        -0.99880897998809814,
+        -0.99746567010879517
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 5088,
+      "componentType": 5126,
+      "count": 33,
+      "max": [
+        1,
+        0.99933451414108276,
+        0.071150273084640503,
+        1
+      ],
+      "min": [
+        6.5583272146341187e-09,
+        -0.99933451414108276,
+        -0.071150265634059906,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2544,
+      "componentType": 5126,
+      "count": 33,
+      "max": [
+        0.97105807065963745,
+        0.9550018310546875
+      ],
+      "min": [
+        0.75205212831497192,
+        0.68247342109680176
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 5280,
+      "componentType": 5125,
+      "count": 72,
+      "max": [
+        32
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 8424,
+      "componentType": 5126,
+      "count": 329,
+      "max": [
+        0.9844549298286438,
+        0.98469626903533936,
+        3.399043083190918
+      ],
+      "min": [
+        -0.9844549298286438,
+        -0.98421353101730347,
+        1.6917984485626221
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12372,
+      "componentType": 5126,
+      "count": 329,
+      "max": [
+        0.99280631542205811,
+        0.99280661344528198,
+        1
+      ],
+      "min": [
+        -0.99280631542205811,
+        -0.99280655384063721,
+        -0.5210416316986084
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 5616,
+      "componentType": 5126,
+      "count": 329,
+      "max": [
+        0.99999988079071045,
+        0.99996930360794067,
+        0.98680597543716431,
+        1
+      ],
+      "min": [
+        -0.99999964237213135,
+        -1,
+        -0.98680585622787476,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2808,
+      "componentType": 5126,
+      "count": 329,
+      "max": [
+        0.73273706436157227,
+        0.99857079982757568
+      ],
+      "min": [
+        0.040013819932937622,
+        0.74662971496582031
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 5568,
+      "componentType": 5125,
+      "count": 1440,
+      "max": [
+        328
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 16320,
+      "componentType": 5126,
+      "count": 238,
+      "max": [
+        1.0277718305587769,
+        1.0280131101608276,
+        2.468658447265625
+      ],
+      "min": [
+        -1.0277718305587769,
+        -1.0275305509567261,
+        -2.3145875930786133
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 19176,
+      "componentType": 5126,
+      "count": 238,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 10880,
+      "componentType": 5126,
+      "count": 238,
+      "max": [
+        1,
+        1,
+        0.058104969561100006,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -0.058104846626520157,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 5440,
+      "componentType": 5126,
+      "count": 238,
+      "max": [
+        0.87295138835906982,
+        0.85888028144836426
+      ],
+      "min": [
+        0.04105667769908905,
+        0.36013513803482056
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 11328,
+      "componentType": 5125,
+      "count": 756,
+      "max": [
+        237
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 22032,
+      "componentType": 5126,
+      "count": 63,
+      "max": [
+        0.22354696691036224,
+        0.2361292839050293,
+        -2.3145875930786133
+      ],
+      "min": [
+        -0.2235478013753891,
+        -0.054255455732345581,
+        -2.8299355506896973
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 22788,
+      "componentType": 5126,
+      "count": 63,
+      "max": [
+        0.86602556705474854,
+        1,
+        0
+      ],
+      "min": [
+        -0.86602550745010376,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 14688,
+      "componentType": 5126,
+      "count": 63,
+      "max": [
+        0.99928092956542969,
+        0.86602646112442017,
+        0.63149601221084595,
+        1
+      ],
+      "min": [
+        -1,
+        -0.86602538824081421,
+        -0.63149642944335938,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 7344,
+      "componentType": 5126,
+      "count": 63,
+      "max": [
+        0.98728358745574951,
+        0.49160811305046082
+      ],
+      "min": [
+        0.74528372287750244,
+        0.036954402923583984
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 14352,
+      "componentType": 5125,
+      "count": 162,
+      "max": [
+        62
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "anathlyst (https://sketchfab.com/anathlyst)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/microphone-cf9580db045e4bd6818306d50f2fa2ce",
+      "title": "Microphone"
+    },
+    "generator": "Sketchfab-9.39.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 15000,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7848,
+      "byteOffset": 15000,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 23544,
+      "byteOffset": 22848,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 15696,
+      "byteOffset": 46392,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 62088,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Microphone_baseColor.png"
+    },
+    {
+      "uri": "textures/Microphone_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Microphone_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Microphone",
+      "normalTexture": {
+        "index": 2,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Body_low_Microphone_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Weave_low_Microphone_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 16,
+            "POSITION": 15,
+            "TANGENT": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Prongs_low_Microphone_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 21,
+            "POSITION": 20,
+            "TANGENT": 22,
+            "TEXCOORD_0": 23
+          },
+          "indices": 24,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.0073300795629620552,
+        0,
+        0,
+        0,
+        0,
+        0.0073300795629620552,
+        0,
+        0,
+        0,
+        0,
+        0.0073300795629620552,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "2ea3f12a246d4540a1a4b03b072e6de9.fbx"
+    },
+    {
+      "children": [
+        4,
+        6,
+        8,
+        10,
+        12
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        -36.853104572158223,
+        -53.023318152039955,
+        45.405421157811126,
+        0,
+        42.405902381703719,
+        -57.789450329868323,
+        -33.066519755519771,
+        0,
+        55.451456081549985,
+        8.9544970655148965,
+        55.463761644128496,
+        0,
+        -2.2616668502450921e-06,
+        59.360862731933594,
+        0.05336473137140274,
+        1
+      ],
+      "name": "Body_low"
+    },
+    {
+      "mesh": 0,
+      "name": "Body_low_Microphone_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        -36.853104572158223,
+        -53.023318152039955,
+        45.405421157811126,
+        0,
+        42.405902381703719,
+        -57.789450329868323,
+        -33.066519755519771,
+        0,
+        55.451456081549985,
+        8.9544970655148965,
+        55.463761644128496,
+        0,
+        -2.2616668502450921e-06,
+        59.360862731933594,
+        0.05336473137140274,
+        1
+      ],
+      "name": "Switch_low"
+    },
+    {
+      "mesh": 1,
+      "name": "0"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        -36.853104572158223,
+        -53.023318152039955,
+        45.405421157811126,
+        0,
+        42.405902381703719,
+        -57.789450329868323,
+        -33.066519755519771,
+        0,
+        55.451456081549985,
+        8.9544970655148965,
+        55.463761644128496,
+        0,
+        -2.2616668502450921e-06,
+        59.360862731933594,
+        0.05336473137140274,
+        1
+      ],
+      "name": "Weave_low"
+    },
+    {
+      "mesh": 2,
+      "name": "Weave_low_Microphone_0"
+    },
+    {
+      "children": [
+        11
+      ],
+      "matrix": [
+        -36.853104572158223,
+        -53.023318152039955,
+        45.405421157811126,
+        0,
+        42.405902381703719,
+        -57.789450329868323,
+        -33.066519755519771,
+        0,
+        55.451456081549985,
+        8.9544970655148965,
+        55.463761644128496,
+        0,
+        -2.2616668502450921e-06,
+        59.360862731933594,
+        0.05336473137140274,
+        1
+      ],
+      "name": "Rings_low"
+    },
+    {
+      "mesh": 3,
+      "name": "1"
+    },
+    {
+      "children": [
+        13
+      ],
+      "matrix": [
+        -36.853104572158223,
+        -53.023318152039955,
+        45.405421157811126,
+        0,
+        42.405902381703719,
+        -57.789450329868323,
+        -33.066519755519771,
+        0,
+        55.451456081549985,
+        8.9544970655148965,
+        55.463761644128496,
+        0,
+        -2.2616668502450921e-06,
+        59.360862731933594,
+        0.05336473137140274,
+        1
+      ],
+      "name": "Prongs_low"
+    },
+    {
+      "mesh": 4,
+      "name": "Prongs_low_Microphone_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+

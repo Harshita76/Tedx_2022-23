@@ -1,20 +1,20 @@
 import React from "react";
-import mike from "../../assets/images/new_mike.png";
-import logo from "../../assets/images/TedXLogo.png";
+
 import "./speaker_background";
 import "./speaker.css";
-import video from "../../assets/images/red_stage_light.mp4";
+//landing page
+import ThreeScene from "./landingpage_react/appjs/appl1";
+
+
+
 import Previous_Speakers from "../Speakers_Prev/Speakers_prev";
 import { Link } from "react-router-dom";
 const Speaker = () => {
 	return (
 		<>
 			<div className="background">
-				<video className="video" autoPlay loop muted>
-					<source src={video} type="video/mp4" />
-				</video>
-				<Link to="/"><img src={logo} alt="logo" className="sponsorship-logo" /></Link>
-			
+			<ThreeScene />
+
 			<div className="title">
 				<div className="title_head">
 					<h1>OUR SPEAKERS</h1>

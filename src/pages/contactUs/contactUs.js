@@ -22,7 +22,7 @@ const ContactUs = (props) => {
 					scaleMobile: 1.0,
 					backgroundColor: 0x000000,
 					color1: 0xe62b1e,
-					color2: 0xffffff,
+					color2: 0xe62b1e,
 					colorMode: "lerpGradient",
 					separation: 75.0,
 					alignment: 10.0,

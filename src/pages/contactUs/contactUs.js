@@ -38,20 +38,22 @@ const ContactUs = (props) => {
 	return (
 		<>
 			<div className="animated-bg">
-				<Link to="/"><img src={logo} className="sponsor-page-logo" alt="" /></Link>
+				<Link to="/">
+					<img src={logo} className="sponsor-page-logo" alt="" />
+				</Link>
 				<div className="title">
 					<div className="title_head">
 						<h1>Contact Us</h1>
 					</div>
 					<div className="title_desc">
-						Tedx Bits Pilani Hyderabad Campus. Content will be added as soon as
-						we get it !!!!!!!!!!!!!
+						Whether you have some ideas to share or you’re interested in working
+						with us, we’d love to hear from you. Get in touch with us below and
+						we’ll revert as soon as we can!
 					</div>
 				</div>
 				<div ref={myRef} className="vantajs"></div>
 			</div>
 			<Form />
-			
 		</>
 	);
 };

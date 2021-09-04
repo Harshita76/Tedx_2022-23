@@ -25,15 +25,20 @@ function Sponsors() {
 	return (
 		<>
 			<div className="landing-page">
-				<Link to="/"><img src={logo} className="sponsorpage-logo" alt="" /></Link>
+				<Link to="/">
+					<img src={logo} className="sponsorpage-logo" alt="" />
+				</Link>
 				<canvas className="sponsor_homepage" />
-				<div className="title">
-					<div className="title_head">
+				<div className="spons-title">
+					<div className="spons-title_head">
 						<h1>SPONSORS</h1>
 					</div>
-					<div className="title_desc">
-						Tedx Bits Pilani Hyderabad Campus. Content will be added as soon as
-						we get it !!!!!!!!!!!!!
+					<div className="spons-title_desc">
+						Join us on our journey to proliferate meaningful discussions and
+						associate with a global name consistent with collaboration,
+						innovation and enduring optimism. Our event is a great opportunity
+						to increase your reach among a brilliant audience and an equally
+						amazing speaker line-up.
 					</div>
 				</div>
 			</div>

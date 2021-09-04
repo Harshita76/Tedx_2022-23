@@ -21,11 +21,11 @@ const Form = ({ submitForm }) => {
 								<span>x</span> = independently organized TED event
 							</p>
 						</div>
-						<div class="footer">
+						{/* <div class="footer">
 							<span>Venue:</span>
 							<h1>XXXX XX</h1>
 							<h1 class="venue">XXXXX, XXXX</h1>
-						</div>
+						</div> */}
 					</div>
 					<div class="layer">
 						<h1 class="soon">Coming Soon</h1>
@@ -69,7 +69,7 @@ const Form = ({ submitForm }) => {
 								className="form-input"
 								type="textbox"
 								name="message"
-								
+
 								rows="5"
 								placeholder="Message"
 								value={values.message}
@@ -78,7 +78,7 @@ const Form = ({ submitForm }) => {
 						</div>
 						<div className="lower">
 							<button className="form-input-btn" type="submit">
-								Sign up
+								Submit
 							</button>
 						</div>
 					</form>

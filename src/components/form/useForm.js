@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import {db} from "../../config"
+import { collection, addDoc } from "firebase/firestore"; 
 
 const useForm = (callback, validate) => {
   const [values, setValues] = useState({
@@ -17,11 +19,26 @@ const useForm = (callback, validate) => {
     });
   };
 
-  const handleSubmit = e => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    /*firestore.collection("contactQueries").doc().set({
+      values
+    }).then(() => {
 
-    setErrors(validate(values));
-    setIsSubmitting(true);
+      setIsSubmitting(true);
+    }).catch(error => {
+      setErrors(validate(values), error);
+    })*/
+    try {
+      const docRef = await addDoc(collection(db, "contactQueries"), {
+        values
+      });
+      setValues({username: '',
+      email: '',
+      message: ''})
+    } catch (e) {
+      setErrors(validate(values), e);
+    }
   };
 
   useEffect(

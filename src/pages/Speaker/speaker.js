@@ -15,15 +15,15 @@ const Speaker = () => {
 				</video>
 				<Link to="/"><img src={logo} alt="logo" className="sponsorship-logo" /></Link>
 			
-			<div className="title">
-				<div className="title_head">
-					<h1>OUR SPEAKERS</h1>
+				<div className="title">
+					<div className="title_head">
+						<h1>OUR SPEAKERS</h1>
+					</div>
+					<div className="title_desc">
+						Tedx Bits Pilani Hyderabad Campus. Content will be added as soon as we
+						get it !!!!!!!!!!!!!
+					</div>
 				</div>
-				<div className="title_desc">
-					Tedx Bits Pilani Hyderabad Campus. Content will be added as soon as we
-					get it !!!!!!!!!!!!!
-				</div>
-			</div>
             </div>
 			<div className="speak_heading">
 				<span>PREVIOUS YEAR</span> SPEAKERS

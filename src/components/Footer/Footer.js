@@ -24,7 +24,7 @@ export default function Footer() {
                         <div className="footer-col3">
                             <h4 className="footer-heading footer-link">Contact Us</h4>
                             <a className="footer-email footer-link" href="#">tedx@hyderabad.bits-pilani.ac.in</a>
-                            <button className="footer-contact"><Link className="footer-contact-us" to="/contactus">Contact Us</Link></button>
+                            <button className="footer-contact"><a className="footer-contact-us" href="/contactus">Contact Us</a></button>
                         </div>
                     </div>
                 </div>

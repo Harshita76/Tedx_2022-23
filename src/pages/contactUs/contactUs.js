@@ -38,9 +38,9 @@ const ContactUs = (props) => {
 	return (
 		<>
 			<div className="animated-bg">
-				<Link to="/">
+			<a href="/">
 					<img src={logo} className="sponsor-page-logo" alt="" />
-				</Link>
+				</a>
 				<div className="title">
 					<div className="title_head">
 						<h1>Contact Us</h1>

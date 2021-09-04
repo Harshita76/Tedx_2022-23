@@ -25,9 +25,9 @@ function Sponsors() {
 	return (
 		<>
 			<div className="landing-page">
-				<Link to="/">
+				<a href="/">
 					<img src={logo} className="sponsorpage-logo" alt="" />
-				</Link>
+				</a>
 				<canvas className="sponsor_homepage" />
 				<div className="spons-title">
 					<div className="spons-title_head">

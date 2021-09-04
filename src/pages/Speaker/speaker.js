@@ -12,9 +12,9 @@ const Speaker = () => {
 	return (
 		<>
 			<div className="background">
-				<Link to="/">
+			<a href="/">
 					<img src={logo} className="sponsor-page-logo" alt="" />
-				</Link>
+				</a>
 				<ThreeScene />
 
 				<div className="speaker-title">

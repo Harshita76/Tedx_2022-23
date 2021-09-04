@@ -26,7 +26,7 @@ function Sponsors() {
 		<>
 			<div className="landing-page">
 				<Link to="/"><img src={logo} className="sponsorpage-logo" alt="" /></Link>
-				<canvas id="sponsor_homepage" />
+				<canvas className="sponsor_homepage" />
 				<div className="title">
 					<div className="title_head">
 						<h1>SPONSORS</h1>

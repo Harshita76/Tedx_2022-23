@@ -5,7 +5,6 @@
     text-align: center;
 }
 
-
 .background {
     height: 100vh;
     width: 100vw;
@@ -13,16 +12,20 @@
     align-items: center;
     justify-content: center;
     /* z-index: 1; */
-} 
+}
 
 .animation div span {
     margin-left: -355px;
     animation: slidein 4s 1 forwards;
     z-index: 10;
 }
-.boxcontent{
-    position: relative;
 
+.boxcontent {
+    position: relative;
+}
+
+.boxcontent {
+    position: relative;
     align-items: center;
     justify-content: center;
 }
@@ -55,7 +58,8 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
 }
-.speak_heading > span {
+
+.speak_heading>span {
     color: #e62b1e;
 }
 
@@ -68,13 +72,16 @@
     z-index: 1;
     font-family: Arial, Helvetica, sans-serif;
     padding: 30px;
-	background-color: rgba(0, 0, 0, 0.35); /* Black w/opacity/see-through */
+    background-color: rgba(0, 0, 0, 0.35);
+    /* Black w/opacity/see-through */
 }
-.speaker-title_head{
+
+.speaker-title_head {
     text-transform: uppercase;
     color: rgb(255, 57, 57);
     font-size: 30px;
 }
+
 .speaker-title_desc {
     margin-top: 20px;
     color: #ffffff;
@@ -82,8 +89,7 @@
     font-size: 20px;
 }
 
-@media screen and (max-width:730px) 
-{
+@media screen and (max-width:730px) {
     .speaker-title {
         transform: scale(0.7);
     }

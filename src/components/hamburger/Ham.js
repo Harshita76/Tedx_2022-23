@@ -55,18 +55,18 @@ const Menu = ({ open, clicked, setClicked}) => {
 			<Link to="/">
 				<a href="/" onClick={() => setClicked(!clicked)} ><HiOutlineHome style={{color:"red"}} /> Home</a>
 			</Link>
-			<Link to="speaker">
+			<Link to="/speaker">
 				<a href="/" onClick={() => setClicked(!clicked)}><FiMic style={{color:"red"}}/> Speakers</a>
 			</Link>
 			
-			<Link to="sponsor">
+			<Link to="/sponsor">
 				<a href="/" onClick={() => setClicked(!clicked)}><HiOutlineUserGroup style={{color:"red"}} />  Sponsors</a>
 			</Link>
-            <Link to="/">
-				<a href="/gallery" onClick={() => setClicked(!clicked)}><RiGalleryLine style={{color:"red"}} />  Gallery</a>
+            <Link to="/gallery">
+				<a href="/" onClick={() => setClicked(!clicked)}><RiGalleryLine style={{color:"red"}} />  Gallery</a>
 			</Link>
-            <Link to="/">
-				<a href="/contactus" onClick={() => setClicked(!clicked)}><RiContactsLine style={{color:"red"}}/> Contact Us</a>
+            <Link to="/contactus">
+				<a href="/" onClick={() => setClicked(!clicked)}><RiContactsLine style={{color:"red"}}/> Contact Us</a>
 			</Link>
 		</StyledMenu>
 	);

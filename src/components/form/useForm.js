@@ -36,6 +36,7 @@ const useForm = (callback, validate) => {
       setValues({username: '',
       email: '',
       message: ''})
+      alert("Your Message has been delivered Successfully!!");
     } catch (e) {
       setErrors(validate(values), e);
     }

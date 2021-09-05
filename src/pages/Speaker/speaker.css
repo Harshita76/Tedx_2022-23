@@ -14,83 +14,14 @@
     /* z-index: 1; */
 }
 
-.background img {
-    position: absolute;
-    z-index: 1;
-    top: 3vh;
-    left: 2vw;
-    width: 235px;
-    height: 80px;
-}
-
-.video {
-    position: absolute;
-    object-fit: cover;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    right: 0;
-    bottom: 0;
-}
-
-.mike {
-    display: inline-block;
-    text-align: center;
-    margin-left: auto;
-    right: 35vw;
-    position: absolute;
-    bottom: -5vh;
-    height: 77vh;
-    width: 300px;
-}
-
-.animation {
-    text-align: center;
-    /* background: linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%); */
-    color: #555;
-    font-family: 'Helvetica';
-    font-weight: 500;
-    font-size: 50px;
-    padding-top: 40vh;
-    height: 100vh;
-    overflow: hidden;
-    backface-visibility: hidden;
-    perspective: 1000;
-    transform: translate3d(0, 0, 0);
-}
-
-.speaker-title {
-    color: #00000056;
-    letter-spacing: 5px;
-}
-
-.animation div {
-    display: inline-block;
-    overflow: hidden;
-    white-space: wrap;
-}
-
 .animation div span {
     margin-left: -355px;
     animation: slidein 4s 1 forwards;
     z-index: 10;
 }
 
-@keyframes slidein {
-    0% {
-        margin-left: -800px;
-    }
-    20% {
-        margin-left: -800px;
-    }
-    35% {
-        margin-left: 0px;
-    }
-    100% {
-        margin-left: 0px;
-        visibility: visible;
-        animation-play-state: paused;
-    }
+.boxcontent {
+    position: relative;
 }
 
 .boxcontent {
@@ -132,29 +63,34 @@
     color: #e62b1e;
 }
 
-.title {
+.speaker-title {
     border-radius: 0 50px 0 50px;
     margin: auto;
     position: absolute;
-    top: 45vh;
+    max-width: 700px;
+    top: 30vh;
     z-index: 1;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 50px;
-    background-color: rgba(0, 0, 0, 0.075);
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.35);
     /* Black w/opacity/see-through */
 }
 
-.title_head {
+.speaker-title_head {
     text-transform: uppercase;
-    color: red;
+    color: rgb(255, 57, 57);
+    font-size: 30px;
 }
 
-.title_desc {
+.speaker-title_desc {
     margin-top: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 @media screen and (max-width:730px) {
-    .title {
+    .speaker-title {
         transform: scale(0.7);
     }
 }

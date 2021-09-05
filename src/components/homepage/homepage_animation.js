@@ -108,9 +108,10 @@ export const canvasDots = function() {
             var opacity = 1 - scroll / checkpoint;
         }
         var dots = document.querySelector('canvas');
-
-        if (dots !== null) {
+        var description = document.querySelector('.tedx-desc');
+        if (dots !== null && description !== null) {
             dots.style.opacity = opacity;
+            description.style.opacity = opacity;
         }
     });
 };

@@ -51,13 +51,13 @@
 
 .title {
     border-radius: 0 50px 0 50px;
-
     position: absolute;
-    top: 45vh;
+    top: 35vh;
+    max-width: 800px;
     z-index: 1;
     font-family: Arial, Helvetica, sans-serif;
     padding: 50px;
-	background-color: rgba(0, 0, 0); /* Black w/opacity/see-through */
+	background-color: rgba(0, 0, 0, 0.75); /* Black w/opacity/see-through */
 }
 .title_head{
     text-transform: uppercase;
@@ -65,11 +65,6 @@
 }
 .title_desc {
     margin-top: 20px;
+    font-size: 20px;
 }
 
-@media screen and (max-width:730px) 
-{
-    .title {
-        transform: scale(0.7);
-    }
-}

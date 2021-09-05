@@ -22,7 +22,7 @@ import textmap from '../royal_esplanade_1k.hdr';
 import gltf1 from './stage.glb';
 import gltf2 from './microphone.glb';
 //import textgltf from './Speakertext.glb';
-
+let mobileresp = window.matchMedia("(max-width: 700px)");
 
 const scene = new THREE.Scene();
 const renderer = new THREE.WebGL1Renderer({ antialias: true });
@@ -172,7 +172,7 @@ class ThreeScene extends Component {
 
                 scene.add( gltf.scene );
                 gltf.scene.position.y = -1.3;
-
+                gltf.scene.scale.set(0.8,0.8,0.8);
                 roughnessMipmapper.dispose();
                 
                 render();

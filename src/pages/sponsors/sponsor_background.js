@@ -178,13 +178,13 @@ export const background = function() {
         const currentScroll = window.pageYOffset;
         if (currentScroll <= checkpoint) {
             var opacity = 1 - currentScroll / checkpoint;
-            var height = 45 - currentScroll / 20;
+            var height = 50 - currentScroll / 20;
         }
         //else {
         //      opacity = 0;
         // }
         var body = document.querySelector('.sponsor_homepage');
-        var title = document.querySelector('.title');
+        var title = document.querySelector('.spons-title');
 
         if (body !== null && title !== null) {
 

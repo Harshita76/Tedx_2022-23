@@ -57,10 +57,10 @@
 
 .spons-title {
     background-color: rgba(0, 0, 0, 0.35);
-        border-radius: 0 50px 0 50px;
+    border-radius: 0 50px 0 50px;
     max-width: 800px;
     margin: auto;
-    position: absolute;
+    /* position: absolute; */
     top: 35vh;
     z-index: 1;
     font-family: Arial, Helvetica, sans-serif;

@@ -60,7 +60,7 @@
 }
 
 .speaker-title {
-    color: #000000;
+    color: #00000056;
     letter-spacing: 5px;
 }
 
@@ -140,7 +140,7 @@
     z-index: 1;
     font-family: Arial, Helvetica, sans-serif;
     padding: 50px;
-    background-color: rgba(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.075);
     /* Black w/opacity/see-through */
 }
 

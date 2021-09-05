@@ -94,6 +94,10 @@ class ThreeScene extends Component {
         window.addEventListener('resize', onWindowResize );
 		window.addEventListener('mousedown', onMouseDown);
     	window.addEventListener('mouseup', onMouseUp);
+        //Disable orbit on small devices
+        if(mobileresp.matches){
+            controls.enabled = false;
+        }
 
 
         //camera and lighting
@@ -137,6 +141,9 @@ class ThreeScene extends Component {
 								}
 
 							} );
+                            if(mobileresp.matches){
+                                gltf.scene.scale.set(.6, .6 ,.6);
+                            }
 
 							scene.add( gltf.scene );
 
@@ -173,6 +180,11 @@ class ThreeScene extends Component {
                 scene.add( gltf.scene );
                 gltf.scene.position.y = -1.3;
                 gltf.scene.scale.set(0.8,0.8,0.8);
+                if(mobileresp.matches){
+                    gltf.scene.scale.set(.6, .6 ,.6);
+                    gltf.scene.position.y = -0.8;
+                }
+                
                 roughnessMipmapper.dispose();
                 
                 render();

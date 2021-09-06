@@ -9,7 +9,7 @@ function Highlights() {
     const data = [
 		{
 			heading: "Networking",
-			bg: Carousel1,
+			bg: Carousel2,
 			btn_text: "See More",
 			link: "#",
 			id: 1,
@@ -17,7 +17,7 @@ function Highlights() {
 		{
 			heading: "Speakers",
 
-			bg: Carousel1,
+			bg: Carousel3,
 			btn_text: "See More",
 			link: "#",
 			id: 2,

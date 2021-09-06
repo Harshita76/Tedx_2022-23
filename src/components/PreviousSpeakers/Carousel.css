@@ -15,7 +15,7 @@
 
 .aslides2 {
   /*background: #151515; */
-  color: #fff;
+  color: rgb(255, 255, 255);
   overflow: hidden;
 }
 
@@ -61,6 +61,9 @@
 }
 
 .slideContent {
+  padding: 10px;
+  text-align: justify;
+  align-items: flex-end;
   border-radius: 15px;
   filter: blur(4px);
   width: 30vw;
@@ -71,12 +74,13 @@
   transition: transform 0.5s ease-in-out;
   opacity: 0.7;
   display: grid;
-  align-content: center;
+  
   transform-style: preserve-3d;
   transform: perspective(1000px) translateX(calc(100% * var(--offset))) rotateY(calc(-45deg * var(--dir)));
 }
 
 .slideContentInner {
+  
   transform-style: preserve-3d;
   transform: translateZ(2rem);
   transition: opacity 0.3s linear;
@@ -96,13 +100,26 @@
   line-height: 0.9ch;
 }
 .slideContentInner .slideDescription {
-  top:100px;
-  margin: 0;
+  
+  
   font-size: 0.75rem;
   letter-spacing: 0.2ch;
 }
+
+/* added css */
 .hide{
   display: none;
+}
+.slideDescription{
+  display: none;
+  padding: 10px;
+  color: #000;
+  background: rgba(255, 255, 255, 0.6 );
+  border-radius: 10px;
+  
+}
+.slideLink{
+  display: inline-block;
 }
 
 

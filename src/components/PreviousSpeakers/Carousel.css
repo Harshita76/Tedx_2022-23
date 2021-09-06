@@ -93,10 +93,12 @@
 }
 .slideContentInner .slideSubtitle::before {
   content: "— ";
+  line-height: 0.9ch;
 }
 .slideContentInner .slideDescription {
+  height: 10px;
   margin: 0;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   letter-spacing: 0.2ch;
 }
 

@@ -6,24 +6,23 @@ import Carousel1 from "../../assets/images/carousel1.jfif"
 function Highlights() {
     const data = [
 		{
-			heading: "WORKSHOPS",
-			desc: "Description goes here Description goes here Description goes here",
+			heading: "Networking",
 			bg: Carousel1,
 			btn_text: "See More",
 			link: "#",
 			id: 1,
 		},
 		{
-			heading: "PRODUCTS",
-			desc: "Description goes here Description goes here Description goes here",
+			heading: "Speakers",
+			
 			bg: Carousel1,
 			btn_text: "See More",
 			link: "#",
 			id: 2,
 		},
 		{
-			heading: "BOOKS",
-			desc: "Description goes here Description goes here Description goes here",
+			heading: "Gallery",
+			
 			bg: Carousel1,
 			btn_text: "See More",
 			link: "#",

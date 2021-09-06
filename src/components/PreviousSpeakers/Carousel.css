@@ -96,11 +96,15 @@
   line-height: 0.9ch;
 }
 .slideContentInner .slideDescription {
-  height: 10px;
+  top:100px;
   margin: 0;
   font-size: 0.75rem;
   letter-spacing: 0.2ch;
 }
+.hide{
+  display: none;
+}
+
 
 .slideBackground {
  color: white;

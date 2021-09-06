@@ -2,7 +2,9 @@ import React from 'react'
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Slides from './Slides';
-import Carousel1 from "../../assets/images/carousel1.jfif"
+import Carousel3 from "../../assets/images/collage/3.jpg"
+import Carousel2 from "../../assets/images/collage/21.jpg"
+import Carousel1 from "../../assets/images/collage/22.jpg"
 function Highlights() {
     const data = [
 		{
@@ -14,7 +16,7 @@ function Highlights() {
 		},
 		{
 			heading: "Speakers",
-			
+
 			bg: Carousel1,
 			btn_text: "See More",
 			link: "#",
@@ -22,7 +24,7 @@ function Highlights() {
 		},
 		{
 			heading: "Gallery",
-			
+
 			bg: Carousel1,
 			btn_text: "See More",
 			link: "#",

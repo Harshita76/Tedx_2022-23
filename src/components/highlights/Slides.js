@@ -9,8 +9,9 @@ function Slides({ heading, bg }) {
 		background-position: center;
 		background-size: cover;
         bacground-repeat: no-repeat;
-		height: 80vh;
-		width: 70vw;
+		height: 100%;
+		width: 100%;
+		
 	`;
 	return (
 		<Slide className="slide">

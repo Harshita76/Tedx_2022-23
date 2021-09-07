@@ -8,6 +8,7 @@
 	background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
 	color: white;
 	border: 3px solid black;
+	
 	padding: 20px;
     padding-left: 10vw;
     padding-right: 10vw;
@@ -33,6 +34,7 @@
 @media screen and (max-width: 1200px) {
 	.slide {
 		height: 60vh;
+		width: 100vw;
 	}
 }
 
@@ -41,5 +43,6 @@
         font-size: 35px;
     }
 }
+
 
 

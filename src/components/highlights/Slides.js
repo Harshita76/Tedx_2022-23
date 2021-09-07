@@ -9,7 +9,7 @@ function Slides({ heading, bg }) {
 		background-position: center;
 		background-size: cover;
         bacground-repeat: no-repeat;
-		height: 100%;
+		height: 80vh;
 		width: 100%;
 		
 	`;

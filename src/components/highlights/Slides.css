@@ -34,13 +34,13 @@
 @media screen and (max-width: 1200px) {
 	.slide {
 		height: 60vh;
-		width: 100vw;
+		
 	}
 }
 
 @media screen and (max-width: 1000px) {
 	.slide_heading{
-        font-size: 35px;
+        font-size: 25px;
     }
 }
 

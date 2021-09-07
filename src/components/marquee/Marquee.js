@@ -1,18 +1,18 @@
 import React from "react";
 import "./Marquee.css";
 import MarqeeCards from "./MarqeeCards";
-import pic1 from "../../assets/images/sponsors-2020/automation.png";
-import pic2 from "../../assets/images/sponsors-2020/condiments.png";
-import pic3 from "../../assets/images/sponsors-2020/cotitle.png";
-import pic4 from "../../assets/images/sponsors-2020/eco-friendly.png";
-import pic5 from "../../assets/images/sponsors-2020/fitness.png";
-import pic6 from "../../assets/images/sponsors-2020/innnovation.png";
-import pic7 from "../../assets/images/sponsors-2020/merchandise.png";
-import pic8 from "../../assets/images/sponsors-2020/music.png";
-import pic9 from "../../assets/images/sponsors-2020/platform.png";
-import pic10 from "../../assets/images/sponsors-2020/snacks.png";
-import pic11 from "../../assets/images/sponsors-2020/ticketing.png";
-import pic12 from "../../assets/images/sponsors-2020/title.png";
+import pic1 from "../../assets/images/sponsors-2020/automation.webp";
+import pic2 from "../../assets/images/sponsors-2020/condiments.webp";
+import pic3 from "../../assets/images/sponsors-2020/cotitle.webp";
+import pic4 from "../../assets/images/sponsors-2020/eco-friendly.webp";
+import pic5 from "../../assets/images/sponsors-2020/fitness.webp";
+import pic6 from "../../assets/images/sponsors-2020/innnovation.webp";
+import pic7 from "../../assets/images/sponsors-2020/merchandise.webp";
+import pic8 from "../../assets/images/sponsors-2020/music.webp";
+import pic9 from "../../assets/images/sponsors-2020/platform.webp";
+import pic10 from "../../assets/images/sponsors-2020/snacks.webp";
+import pic11 from "../../assets/images/sponsors-2020/ticketing.webp";
+import pic12 from "../../assets/images/sponsors-2020/title.webp";
 function Marquee() {
 	const sponsdata = [
 		{ id: 1, pic: pic1 },

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Marquee from "../../components/marquee/Marquee";
-import logo from "../../assets/images/TedXLogo.png";
+import logo from "../../assets/images/TedXLogo.webp";
 import "./Sponsors.css";
 import { useWindowSize } from "react-hooks-window-size";
 import { background } from "./sponsor_background";

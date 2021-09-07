@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import tedxlogo from "../../assets/images/TedXLogo.png";
+import tedxlogo from "../../assets/images/TedXLogo.webp";
 import "../../components/homepage/homepage_animation.js";
 import { canvasDots } from "../../components/homepage/homepage_animation.js";
 import { particles } from "../../components/homepage/homepage_paricles";

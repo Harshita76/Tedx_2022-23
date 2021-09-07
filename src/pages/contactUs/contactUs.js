@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import logo from "../../assets/images/TedXLogo.png";
+import logo from "../../assets/images/TedXLogo.webp";
 import BIRDS from "vanta/dist/vanta.birds.min";
 import "./contactUs.css";
 import "./contactUs_animation";
@@ -38,7 +38,7 @@ const ContactUs = (props) => {
 	return (
 		<>
 			<div className="animated-bg">
-			<a href="/">
+				<a href="/">
 					<img src={logo} className="sponsor-page-logo" alt="" />
 				</a>
 				<div className="title">

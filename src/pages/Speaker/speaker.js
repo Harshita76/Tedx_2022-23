@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/images/TedXLogo.png";
+import logo from "../../assets/images/TedXLogo.webp";
 
 import "./speaker_background";
 import "./speaker.css";
@@ -12,7 +12,7 @@ const Speaker = () => {
 	return (
 		<>
 			<div className="background">
-			<a href="/">
+				<a href="/">
 					<img src={logo} className="sponsor-page-logo" alt="" />
 				</a>
 				<ThreeScene />

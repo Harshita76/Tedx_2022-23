@@ -1,21 +1,21 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./Gallery.css";
-import img1 from "../../assets/images/gallery/1.jpg";
-import img2 from "../../assets/images/gallery/2.jpg";
-import img3 from "../../assets/images/gallery/3.jpg";
-import img4 from "../../assets/images/gallery/4.jpg";
-import img5 from "../../assets/images/gallery/5.jpg";
-// import img6 from "../../assets/images/gallery/6.jpg";
-import img7 from "../../assets/images/gallery/7.jpg";
-import img8 from "../../assets/images/gallery/8.jpg";
+import img1 from "../../assets/images/gallery/1.webp";
+import img2 from "../../assets/images/gallery/2.webp";
+import img3 from "../../assets/images/gallery/3.webp";
+import img4 from "../../assets/images/gallery/4.webp";
+import img5 from "../../assets/images/gallery/5.webp";
+// import img6 from "../../assets/images/gallery/6.webp";
+import img7 from "../../assets/images/gallery/7.webp";
+import img8 from "../../assets/images/gallery/8.webp";
 
-import img10 from "../../assets/images/gallery/10.png";
-import img11 from "../../assets/images/gallery/11.png";
-import img12 from "../../assets/images/gallery/12.png";
-import img13 from "../../assets/images/gallery/13.jpg";
-import img14 from "../../assets/images/gallery/14.jpg";
-import logo from "../../assets/images/black.png";
+import img10 from "../../assets/images/gallery/10.webp";
+import img11 from "../../assets/images/gallery/11.webp";
+import img12 from "../../assets/images/gallery/12.webp";
+import img13 from "../../assets/images/gallery/13.webp";
+import img14 from "../../assets/images/gallery/14.webp";
+import logo from "../../assets/images/black.webp";
 
 
 function Gallery() {

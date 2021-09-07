@@ -1,7 +1,7 @@
 import React from "react";
 import "./Theme.css"
 import { Fade } from "react-awesome-reveal";
-import themeImage from "../../assets/images/theme.png";
+import themeImage from "../../assets/images/theme.webp";
 import { Link } from "react-router-dom";
 
 

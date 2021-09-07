@@ -187,11 +187,11 @@ const slides = [
           <div className="slideContentInner">
             <h2 className="slideTitle">{slide.title}</h2>
            <h3 className="slideSubtitle">{slide.subtitle}</h3> 
-           <h3 className="slideLink">{slide.link1?<a href={slide.link1}><FaFacebook /></a>: <div/>} </h3>
-           <h3 className="slideLink">{slide.link2?<a href={slide.link2}><FaInstagram /></a>: <div/>} </h3>
-           <h3 className="slideLink">{slide.link3?<a href={slide.link3}><FaYoutube /></a>: <div/>} </h3>
-           <h3 className="slideLink">{slide.link4?<a href={slide.link4}><FaTwitter /></a>: <div/>} </h3>
-           <h3 className="slideLink">{slide.link5?<a href={slide.link5}><FaLinkedin /></a>:  <div/>} </h3>
+           <h3 className="slideLink">{slide.link1?<a href={slide.link1}><FaFacebook className="fa"/></a>: <div/>} </h3>
+           <h3 className="slideLink">{slide.link2?<a href={slide.link2}><FaInstagram className="in"/></a>: <div/>} </h3>
+           <h3 className="slideLink">{slide.link3?<a href={slide.link3}><FaYoutube className="yo"/></a>: <div/>} </h3>
+           <h3 className="slideLink">{slide.link4?<a href={slide.link4}><FaTwitter className="tw"/></a>: <div/>} </h3>
+           <h3 className="slideLink">{slide.link5?<a href={slide.link5}><FaLinkedin className="li"/></a>:  <div/>} </h3>
          
             <p className="slideDescription">{slide.description}</p>
           </div>

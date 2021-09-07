@@ -150,3 +150,9 @@
   transition: none;
   transform: perspective(1000px) rotateY(calc(var(--x) * 45deg)) rotateX(calc(var(--y) * -45deg));
 }
+
+.fa , .in , .yo, .li , .tw {
+  height: 30px;
+  width: 40px;
+  margin: 5px;
+}

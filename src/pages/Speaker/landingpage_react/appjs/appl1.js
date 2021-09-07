@@ -82,6 +82,7 @@ class ThreeScene extends Component {
         controls.enableZoom = false;
         controls.maxPolarAngle = Math.PI / 2;
 		controls.addEventListener( 'change', render ); // use if there is no animation loop
+        controls.autoRotate = true;
 		controls.minDistance = 7;  
 		controls.maxDistance = 9; 
         controls.target.set( 0, 0, - 0.2 );
@@ -261,10 +262,11 @@ class ThreeScene extends Component {
 
     animation= ()=>{
         requestAnimationFrame(this.animation);
-        this.cube.rotation.x += 0.01;
-        this.cube.rotation.y += 0.01;
+        controls.update();
         renderer.render(scene, camera);
     }
+
+    
     
 
     render(){

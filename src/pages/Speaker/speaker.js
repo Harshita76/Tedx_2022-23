@@ -1,13 +1,10 @@
 import React from "react";
 import logo from "../../assets/images/TedXLogo.webp";
-
 import "./speaker_background";
 import "./speaker.css";
 //landing page
 import ThreeScene from "./landingpage_react/appjs/appl1";
-
 import Previous_Speakers from "../Speakers_Prev/Speakers_prev";
-import { Link } from "react-router-dom";
 const Speaker = () => {
 	return (
 		<>
@@ -36,7 +33,7 @@ const Speaker = () => {
 				<Previous_Speakers />
 			</div>
 		</>
-	);
+	)
 };
 
 export default Speaker;

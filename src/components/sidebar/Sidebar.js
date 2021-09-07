@@ -4,7 +4,7 @@ import { FiMic } from "react-icons/fi";
 import { RiContactsLine, RiGalleryLine } from "react-icons/ri";
 import { HiOutlineHome, HiOutlineUserGroup } from "react-icons/hi";
 
-import { Link, BrowserRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { usePath } from "hookrouter";
 function Sidebar() {
 	const [sideNav, setSideNav] = useState({

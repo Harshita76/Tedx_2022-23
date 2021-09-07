@@ -4,7 +4,6 @@ import logo from "../../assets/images/TedXLogo.webp";
 import "./Sponsors.css";
 import { useWindowSize } from "react-hooks-window-size";
 import { background } from "./sponsor_background";
-import { Link } from "react-router-dom";
 
 function Sponsors() {
 	const size = useWindowSize(1500, 1500);

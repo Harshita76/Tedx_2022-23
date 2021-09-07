@@ -5,7 +5,7 @@ function MarqeeCards({ source }) {
 		<>
 			<div className="cards">
 				<div className="pic">
-					<img src={source} alt="picture" />
+					<img src={source} alt="tedx" />
 				</div>
 			</div>
 		</>

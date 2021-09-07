@@ -4,7 +4,6 @@ import BIRDS from "vanta/dist/vanta.birds.min";
 import "./contactUs.css";
 import "./contactUs_animation";
 import Form from "../../components/form/Form";
-import { Link } from "react-router-dom";
 const ContactUs = (props) => {
 	const [vantaEffect, setVantaEffect] = useState(0);
 	const myRef = useRef(null);

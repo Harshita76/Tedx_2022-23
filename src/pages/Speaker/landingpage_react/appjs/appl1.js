@@ -58,12 +58,12 @@ function onWindowResize() {
 class ThreeScene extends Component {
     componentDidMount() {
         //scene and renderer
-
-        renderer.setPixelRatio(window.devicePixelRatio);
-        renderer.setSize(window.innerWidth, window.innerHeight);
-        renderer.toneMapping = THREE.ACESFilmicToneMapping;
-        renderer.toneMappingExposure = 1;
-        renderer.outputEncoding = THREE.sRGBEncoding;
+        
+        renderer.setPixelRatio( window.devicePixelRatio/2); //use this to change resolution
+		renderer.setSize( window.innerWidth, window.innerHeight );
+		renderer.toneMapping = THREE.ACESFilmicToneMapping;
+		renderer.toneMappingExposure = 1;
+		renderer.outputEncoding = THREE.sRGBEncoding;
         this.mount.appendChild(renderer.domElement);
 
         //camera
@@ -237,14 +237,8 @@ class ThreeScene extends Component {
 
 
 
-        //importing objects
-        var geometry = new THREE.BoxGeometry(1, 1, 1);
-        var material = new THREE.MeshBasicMaterial({
-            color: 0x004f00
-        });
-        this.cube = new THREE.Mesh(geometry, material);
-
-        //scene.add(this.cube);
+        
+        //rotate Camera
         this.animation();
         renderer.render(scene, camera);
     }

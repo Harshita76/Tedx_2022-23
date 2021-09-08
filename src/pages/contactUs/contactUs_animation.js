@@ -3,7 +3,7 @@ window.addEventListener('scroll', () => {
     var limit = 500
     if (scroll <= limit) {
         var opacity = 1 - scroll / limit;
-        var height = 45 - scroll / 20;
+        var height = 35 - scroll / 20;
     }
     var animation = document.querySelector('.animated-bg');
     var title = document.querySelector('.title')

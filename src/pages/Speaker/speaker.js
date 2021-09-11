@@ -3,7 +3,7 @@ import logo from "../../assets/images/TedXLogo.webp";
 import "./speaker_background";
 import "./speaker.css";
 //landing page
-import ThreeScene from "./landingpage_react/appjs/appl1";
+// import ThreeScene from "./landingpage_react/appjs/appl1";
 import Previous_Speakers from "../Speakers_Prev/Speakers_prev";
 const Speaker = () => {
 	return (
@@ -12,7 +12,7 @@ const Speaker = () => {
 				<a href="/">
 					<img src={logo} className="sponsor-page-logo" alt="" />
 				</a>
-				<ThreeScene />
+				{/* <ThreeScene /> */}
 
 				<div className="speaker-title">
 					<div className="speaker-title_head">

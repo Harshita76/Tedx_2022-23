@@ -1,4 +1,3 @@
-
 export const canvasDots = function() {
     var canvas = document.querySelector('canvas'),
         ctx = canvas.getContext('2d'),
@@ -100,7 +99,7 @@ export const canvasDots = function() {
 
     setInterval(createDots, 1000 / 30);
 
-    var checkpoint = 500;
+    var checkpoint = 300;
 
     window.addEventListener("scroll", () => {
         const scroll = window.pageYOffset;

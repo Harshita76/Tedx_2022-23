@@ -22,7 +22,8 @@ export default function Theme() {
                     <Fade direction="right" delay={300} triggerOnce>
                         <div className="theme-text">
                             <h5><span>TEDx</span>BITSHyderabad</h5>
-                            <p>Just twenty-six letters of the alphabet, combine in different ways to form words. Words that can change lives, words that can instigate an entire country to a revolution, or just the words that you are reading right now. Just seven notes of music come together and make up all of music. An entire art form, in all its glory and beauty, can be traced back to in seven sounds. Just two digits, zero and one, govern the entirety of computer science. Your laptops, iPads, phones (and probably your future robotic rulers, if the venerable Stephen Hawking is to be believed), all dictated by two numbers.</p>
+                            <p>"BIG QUESTIONS, SMALL ANSWERS" refers to the idea that a number of obstacles and questions we face often require us to be proactive. They enforce upon us the necessity of starting with small steps in order to reach the pinnacle of life.
+In a world that currently requires an inspiring show of unity and self-reflection, we believe that this theme will give a chance for our speakers and attendees to reflect upon their pasts and their actions to drive their own future paths in solving communal goals. We also hope that the idea of large and daunting problems having simple solutions resonates with the audience to drive the notion of personal growth and individual action.</p>
                             <Link to="/contactus" type="button" className="theme_btn">Contact Us</Link>
                         </div>
                     </Fade>

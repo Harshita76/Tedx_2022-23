@@ -126,7 +126,7 @@ export default function Payment() {
 		);
 		if (!res) return;
 		const options = {
-			key: "rzp_test_vE4gT8VUD7EdxK", // change when making live
+			key: "rzp_live_OCjPCaxeyiaxGS", // change when making live
 			currency: "INR",
 			amount: cost * 100,
 			name: "Tedx BITS Pilani Hyderabad",

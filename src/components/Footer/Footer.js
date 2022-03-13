@@ -26,6 +26,15 @@ export default function Footer() {
                             <a className="footer-email footer-link" href="#">tedx@hyderabad.bits-pilani.ac.in</a>
                             <button className="footer-contact"><a className="footer-contact-us" href="/contactus">Contact Us</a></button>
                         </div>
+                        <div className="footer-col4">
+                            <h4 className="footer-heading footer-link">Other Links</h4>
+                            <Link to='/termandcond'>
+                                <a className="footer-email footer-link" href="#">Terms and conditions</a>
+                            </Link>
+                            <Link to='/privacypolicy'>
+                                <a className="footer-email footer-link" href="">Privacy Policy</a>
+                            </Link>
+                        </div>
                     </div>
                 </div>
                 <div className="footer-row2">

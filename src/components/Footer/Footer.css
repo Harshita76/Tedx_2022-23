@@ -28,6 +28,11 @@
 	display: flex;
 	flex-direction: column;
 }
+.footer-col4 {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
 .footer-heading {
 	margin-bottom: 10px;
 	font-size: 20px;

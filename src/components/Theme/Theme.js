@@ -10,7 +10,7 @@ export default function Theme() {
 		<>
 			<section className="theme">
 				<Fade direction="up" delay={300} triggerOnce>
-					<h2>Elixer Of Change</h2>
+					<h2 style={{textTransform:"uppercase"}}>Elixer Of Change</h2>
 				</Fade>
 				<div className="main">
 					<div className="theme-img">

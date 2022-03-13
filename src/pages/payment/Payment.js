@@ -127,12 +127,13 @@ export default function Payment() {
 		if (!res) return;
 		const options = {
 			key: "rzp_live_OCjPCaxeyiaxGS", // change when making live
+			// key: "rzp_test_YXr9fSnQcWBs09",
 			currency: "INR",
 			amount: cost * 100,
 			name: "Tedx BITS Pilani Hyderabad",
 			description: "Payment for TEDx BITS Pilani Hyderabad",
 			image: "", // put image url here
-      callback_url: "http://localhost:3000/",
+    //   callback_url: "https://tedxbitshyderabad.org/",
 			handler: function async (response) {
 				console.log(response.razorpay_payment_id);
         fetch("https://api.apispreadsheets.com/data/l8R2YBeujSCrkSe0/", {
@@ -150,8 +151,11 @@ export default function Payment() {
           }
         }),
       })
+	    .then((res) => {
+			alert("Payment Successful");
+		})
         .then((res) => {
-          window.location.href = "http://localhost:3000/";
+          window.location.href = "http://tedxbitshyde.org/";
         })
         .catch((err) => {
           console.log(err);

@@ -32,7 +32,7 @@ export default function Footer() {
                                 <a className="footer-email footer-link" href="#">Terms and conditions</a>
                             </Link>
                             <Link to='/privacypolicy'>
-                                <a className="footer-email footer-link" href="">Privacy Policy</a>
+                                <a className="footer-email footer-link" href="#">Privacy Policy</a>
                             </Link>
                         </div>
                     </div>

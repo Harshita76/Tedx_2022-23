@@ -6,6 +6,7 @@ canvas {
     right: 0;
     left: 0;
     bottom: 0;
+    z-index: -1;
 }
 
 .homepage {
@@ -66,4 +67,58 @@ canvas {
         width: 90%;
         align-items: center;
     }
+}
+
+
+/* CSS */
+.buy_ticket {
+  background-color: transparent;
+  border: 1px solid #fd4c2d;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  margin: auto;
+}
+
+.buy_ticket:hover,
+.buy_ticket:active {
+  outline: 0;
+  border: 1px solid #ffffff;
+}
+
+.buy_ticket:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.buy_ticket:before {
+  background-color: #f6ddd5;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.buy_ticket:hover:before {
+  background-color: #fd4c2d;
+}
+
+@media (min-width: 768px) {
+  .buy_ticket {
+    padding: 16px 32px;
+  }
 }

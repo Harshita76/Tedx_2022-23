@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import Ham from "./components/hamburger/Ham";
 import Gallery from "./pages/gallery/Gallery";
 import ContactUs from "./pages/contactUs/contactUs";
+import Payment from "./pages/payment/Payment";
 function App() {
 	return (
 		<>
@@ -19,6 +20,7 @@ function App() {
 				<Route path="/speaker" component={Speakers} />
 				<Route path="/gallery" component={Gallery} />
 				<Route path="/contactus" component={ContactUs} />
+				<Route path="/payments" component={Payment} />
 			</Switch>
 			<Footer />
 		</>

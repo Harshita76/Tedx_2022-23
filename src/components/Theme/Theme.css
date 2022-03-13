@@ -48,8 +48,7 @@ span {
 .theme-text p {
 	color: rgba(255, 255, 255, 0.705);
 	font-size: 18px;
-	text-transform: capitalize;
-	margin-bottom: 45px;
+	bottom: 45px;
 	letter-spacing: 1px;
 	line-height: 28px;
 	padding: 20px;

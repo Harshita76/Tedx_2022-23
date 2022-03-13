@@ -9,6 +9,7 @@ import "./Homepage.css";
 import Rules from "../../components/Rules/Rules";
 import { useWindowSize } from "react-hooks-window-size";
 import Highlights from "../../components/highlights/Highlights";
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
 	const size = useWindowSize(1500, 1500);
@@ -30,6 +31,11 @@ const Homepage = () => {
 						fresh perspectives and novel concepts, giving every participant
 						something to take home.
 					</div>
+					{/* <Link to ='/payments'>
+						<div className="buy_ticket">
+							BUY TICKETS
+						</div>
+					</Link> */}
 				</div>
 			</div>
 			<canvas className="dots" />

@@ -34,6 +34,9 @@ export default function Footer() {
                             <Link to='/privacypolicy'>
                                 <a className="footer-email footer-link" href="#">Privacy Policy</a>
                             </Link>
+                            <Link to='/refundpolicy'>
+                                <a className="footer-email footer-link" href="#">Refund Policy</a>
+                            </Link>
                         </div>
                     </div>
                 </div>

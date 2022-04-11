@@ -24,7 +24,10 @@ export default function Footer() {
                         <div className="footer-col3">
                             <h4 className="footer-heading footer-link">Contact Us</h4>
                             <a className="footer-email footer-link" href="#">tedx@hyderabad.bits-pilani.ac.in</a>
-                            <button className="footer-contact"><a className="footer-contact-us" href="/contactus">Contact Us</a></button>
+        <a className="footer-email footer-link" href="#">+91 99867 71023</a>
+        <a className="footer-email footer-link" href="#">BITS PILANI Hyderabad Campus, Jawahar Nagar, Shameerpet, Hyderabad Telangana 500078 </a>
+        
+//                             <button className="footer-contact"><a className="footer-contact-us" href="/contactus">Contact Us</a></button>
                         </div>
                         <div className="footer-col4">
                             <h4 className="footer-heading footer-link">Other Links</h4>

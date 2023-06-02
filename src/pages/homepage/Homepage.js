@@ -31,11 +31,11 @@ const Homepage = () => {
 						fresh perspectives and novel concepts, giving every participant
 						something to take home.
 					</div>
-					/*<Link to ='/payments'>
+					{/*<Link to ='/payments'>
 						<div className="buy_ticket">
 							BUY TICKETS
 						</div>
-					</Link>*/
+					</Link>*/}
 				</div>
 			</div>
 			<canvas className="dots" />

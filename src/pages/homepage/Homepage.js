@@ -4,6 +4,7 @@ import "../../components/homepage/homepage_animation.js";
 import { canvasDots } from "../../components/homepage/homepage_animation.js";
 import { particles } from "../../components/homepage/homepage_paricles";
 import Theme from "../../components/Theme/Theme";
+import NewSpeaker from "../../components/newSpeaker/newSpeaker";
 import "../../components/homepage/homepage_animation.js";
 import "./Homepage.css";
 import Rules from "../../components/Rules/Rules";
@@ -40,6 +41,7 @@ const Homepage = () => {
 			</div>
 			<canvas className="dots" />
 			<Theme />
+			<NewSpeaker/>
 			<div style={{ margin: "20px 60px" }}>
 				<Highlights />
 			</div>

@@ -8,7 +8,7 @@ function newSpeaker() {
   return (
     <>
     <div className="speak_heading">
-    <span>NEW</span> SPEAKERS
+    {/* <span>NEW</span> SPEAKERS */}
   </div>
    <div className="card-grid">
   {slides.map((item) => (

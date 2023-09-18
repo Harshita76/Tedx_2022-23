@@ -40,8 +40,8 @@ const Homepage = () => {
 				</div>
 			</div>
 			<canvas className="dots" />
-			<Theme />
-			<NewSpeaker/>
+			{/* <Theme /> */}
+			{/* <NewSpeaker/> */}
 			<div style={{ margin: "20px 60px" }}>
 				<Highlights />
 			</div>

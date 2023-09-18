@@ -1,4 +1,4 @@
-@charset "UTF-8";
+/* @charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -13,9 +13,9 @@
   font-size: 3vmin;
 }
 
-.aslides2 {
+.aslides2 { */
   /*background: #151515; */
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255);
   overflow: hidden;
 }
 
@@ -107,7 +107,7 @@
 }
 
 /* added css */
-.hide{
+/*.hide{
   display: none;
 }
 .slideDescription{
@@ -155,4 +155,4 @@
   height: 30px;
   width: 40px;
   margin: 5px;
-}
+} */

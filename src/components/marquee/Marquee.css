@@ -14,6 +14,9 @@
 	display: flex;
 	animation: scrolling 20s linear infinite;
 	color: red;
+	flex-direction: row;
+    	flex-wrap: wrap;
+}
 }
 
 .marquee-content li {

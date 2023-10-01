@@ -14,10 +14,12 @@
 
 .theme-text {
 	width: 550px;
+	font-size: medium;
 }
 
 .main {
 	width: 1130px;
+	height:450px;
 	max-width: 95%;
     margin: 10px auto;
 	display: flex;

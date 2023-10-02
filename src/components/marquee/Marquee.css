@@ -12,18 +12,24 @@
 	list-style: none;
 	height: 100%;
 	display: flex;
-	animation: scrolling 20s linear infinite;
+	/*animation: scrolling 20s linear infinite;*/
 	color: red;
+	flex-direction: row;
+    	flex-wrap: wrap;
+}
 }
 
 .marquee-content li {
-	width: 20vw;
+	width: 26vw;
 	flex-shrink: 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	font-size: 5rem;
 	white-space: nowrap;
+	margin-bottom: 3rem;
+	justify-content: flex-end;
+	margin: auto;
 }
 
 .marquee::before,

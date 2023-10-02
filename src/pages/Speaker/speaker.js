@@ -3,7 +3,7 @@ import logo from "../../assets/images/TedXLogo.webp";
 import GLOBE from 'vanta/dist/vanta.globe.min'
 import "./speaker_background";
 import "./speaker.css";
-import NewSpeaker from "../../components/newSpeaker/newSpeaker";
+import PrevSpeaker from "../../components/prevSpeaker/prevSpeaker";
 //landing page
 // import ThreeScene from "./landingpage_react/appjs/appl1";
 import Previous_Speakers from "../Speakers_Prev/Speakers_prev";
@@ -56,7 +56,7 @@ const Speaker = () => {
 				<span>PREVIOUS YEAR</span> SPEAKERS
 			</div>
 			<div className="boxcontent">
-			<NewSpeaker/>
+			<PrevSpeaker/>
 			</div>
 		</>
 	)

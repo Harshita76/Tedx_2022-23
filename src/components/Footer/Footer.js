@@ -64,7 +64,7 @@ export default function Footer() {
 								</a>
 							</div>
 						</div>
-						<div className="footer-col3">
+						<div className="footer-col3" style={{textAlign:'left'}}>
 							<h4 className="footer-heading footer-link">Contact Us</h4>
 							<a className="footer-email footer-link" href="#">
 								tedx@hyderabad.bits-pilani.ac.in

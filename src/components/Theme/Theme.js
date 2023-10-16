@@ -11,7 +11,7 @@ export default function Theme() {
 		<>
 			<section className="theme">
 				<Fade direction="up" delay={300} triggerOnce>
-					<h2 style={{textTransform:"uppercase"}}>Theme</h2>
+					<h2 style={{textTransform:"uppercase"}}>Theme - Reflective Tapestry </h2>
 				</Fade>
 				<div className="main">
 					<div className="theme-img">
@@ -20,9 +20,9 @@ export default function Theme() {
 
 					<Fade direction="right" delay={300} triggerOnce>
 						<div className="theme-text">
-							<h5>
+							{/* <h5>
 								<span>Reflective </span> Tapestry
-							</h5>
+							</h5> */}
 							<p>
 							In a world filled with diverse perspectives, experiences, our event aims to celebrate and unravel the intricate interplay of these threads that make up the rich fabric of our society. 'Reflective Tapestry' signifies the power of and introspection as we disentangle the stories woven into our lives, communities, and the world at large. Our speakers will delve into the threads of their own unique journeys, highlighting the beauty of connectivity, the importance of self-discovery, and the tapestry of human existence and experience. Join us in this extraordinary exploration of the myriad stories that shape our collective narrative, and be inspired to see the tapestry of the world through a new lens.
 							</p>

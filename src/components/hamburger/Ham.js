@@ -65,9 +65,7 @@ const Menu = ({ open, clicked, setClicked}) => {
             <Link to="/gallery">
 				<a href="/" onClick={() => setClicked(!clicked)}><RiGalleryLine style={{color:"red"}} />  Gallery</a>
 			</Link>
-            <Link to="/contactus">
-				<a href="/" onClick={() => setClicked(!clicked)}><RiContactsLine style={{color:"red"}}/> Contact Us</a>
-			</Link>
+            
 		</StyledMenu>
 	);
 };

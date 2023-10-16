@@ -53,7 +53,7 @@ const Speaker = () => {
 				<div ref={myRef} className="speaker_vanta"></div>
 			</div>
 			<div className="speak_heading">
-				<span>PREVIOUS YEAR</span> SPEAKERS
+				<span>PAST </span> SPEAKERS
 			</div>
 			<div className="boxcontent">
 			<PrevSpeaker/>

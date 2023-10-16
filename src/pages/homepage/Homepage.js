@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
 import tedxlogo from "../../assets/images/TedXLogo.webp";
+import ticket from "../../assets/images/ticket.jpg";
 import "../../components/homepage/homepage_animation.js";
 import { canvasDots } from "../../components/homepage/homepage_animation.js";
 import { particles } from "../../components/homepage/homepage_paricles";
 import Theme from "../../components/Theme/Theme";
-import NewSpeaker from "../../components/NewSpeaker/newspeaker";
+import Newspeaker from "../../components/newSpeaker/newSpeaker";
 import "../../components/homepage/homepage_animation.js";
 import "./Homepage.css";
 import Rules from "../../components/Rules/Rules";
@@ -48,20 +49,20 @@ const Homepage = () => {
 				<div classname="datedate">
 				<Homepagedate />
 				</div>
+				<div className="ticketReveal">
 
 				</div>
-
-				<div classname="datedate">
-				<Homepagedate />
+					<img className="ticket_image" src={ticket} alt="" />
 				</div>
-			</div>
+
+				
 
 			<canvas className="dots" />
 			<Theme />
 			<div className="speak_heading">
-				<span>NEW</span> SPEAKERS
+				<span>SPEAKERS</span> FOR CONFERENCE 2023
 			</div>
-			<NewSpeaker/>
+			<Newspeaker/>
 			<div style={{ margin: "20px 60px" }}>
 				<Highlights />
 			</div>

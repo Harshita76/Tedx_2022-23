@@ -1,5 +1,5 @@
 import React from 'react'
-import "./newspeaker.css"
+import "./newSpeaker.css"
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import {slides} from "./newData";
 import { useState, useRef } from "react";
@@ -60,6 +60,7 @@ const Newspeaker = () => {
 >
 <div class="imgbox"> <img className="speaker-image"  src={item.image} alt="speaker image" />
 <h2 className="tittle">{item.title} </h2>
+<h4 className='tittle'>{item.profession}</h4>
 </div>
      <div className='content'>
          <h3 className="slideLink">{item.link1 ? <a href={item.link1}><FaFacebook className="fa" /></a> : <div />} </h3>

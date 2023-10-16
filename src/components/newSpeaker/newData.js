@@ -1,6 +1,7 @@
 import reveal from '../../assets/images/New_Speakers/RevealingSoon.png';
-import img1 from '../../assets/images/New_Speakers/img1.jpeg';
-// import img2 from '../../assets/images/Previous_Speakers/2.webp';
+import img1 from '../../assets/images/New_Speakers/img1.jpg';
+import img2 from '../../assets/images/New_Speakers/img2.JPG';
+import img3 from '../../assets/images/New_Speakers/img3.jpg';
 // import img3 from '../../assets/images/Previous_Speakers/3.webp';
 // import img4 from '../../assets/images/Previous_Speakers/4.webp';
 // import img5 from '../../assets/images/Previous_Speakers/5.webp';
@@ -12,6 +13,7 @@ import img1 from '../../assets/images/New_Speakers/img1.jpeg';
 export const slides = [
     { id:1, 
       title: "Viivek Mashru",
+      profession :"Businessman, Former actor, Educator",
       // link1: "https://www.facebook.com/RanveerBrar/",
       // link2: "https://www.instagram.com/ranveer.brar/",
       // link3: "https://www.youtube.com/channel/UCEHCDn_BBnk3uTK1M64ptyw",
@@ -22,15 +24,17 @@ export const slides = [
       image: img1
     },
     { id:2, 
-      // title: "Zoya Agarwal - Pilot",
+       title: "Subasish Pani",
+       profession :"Stock Market Trader, YouTuber",
       // link2: "https://www.instagram.com/captainzoya/",
       // link4: "https://twitter.com/zoyacaptain",
       // link5: "https://in.linkedin.com/in/captain-zoya",
       // description: "Captain Zoya Agarwal carries with her inspiring stories of following one's dreams irrespective of the barriers imposed on you. Having spent a childhood gazing up at the skies dreaming of becoming a pilot - Captain Zoya worked tirelessly to make her childhood dream her reality. Not to be stopped there, Captain Zoya continued breaking through glass ceilings. From becoming the youngest woman commander of the Boeing 777 to becoming the first woman commander of Air India to fly over the North Pole - Captain Zoya's path-breaking strides create pause for awe.",
-      image: reveal
+      image: img2
     },
     {  id:3, 
-      // title: "Travin Singh",
+      title: "Arun Tiwari",
+      profession :"Former Missile Scientist, Author, Proffesor",
       // link1: "https://www.facebook.com/crustgroup/",
       // link2: "https://www.instagram.com/crustsingapore",
   
@@ -38,7 +42,7 @@ export const slides = [
       // link5: "https://sg.linkedin.com/in/travin-s-b1759115a",
       // description: " From incorporating leftovers into meals to founding a food tech startup, Travin Singh’s journey into the realm of food waste management and sustainability is a remarkable one. It was while serving in the Singapore Navy that Travin had his first eureka moment. Seeing opportunity in the large amounts of unsold bread thrown out daily, he perfected the art of brewing, starting from YouTube and painstakingly improving his recipe. Four years later, CRUST Group was born, their first product being a bread based beer. Today, the company aims to fight the perennial issue of food loss and has wonderful ambitions - to reduce global food waste by 1% by 2030.",
   
-      image: reveal
+      image: img3
     },
     {  id:4, 
       // title: "Devaagyh Dixit",

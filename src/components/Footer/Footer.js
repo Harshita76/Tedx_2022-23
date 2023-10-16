@@ -38,14 +38,7 @@ export default function Footer() {
 								>
 									<FaFacebook />
 								</a>
-								<a
-									href="https://twitter.com/tedxbitshyd?lang=en"
-									target="_blank"
-									rel="noopener noreferrer"
-									className="footer-icon twicon"
-								>
-									<FaTwitter />
-								</a>
+								
 								<a
 									href="https://www.instagram.com/tedxbitshyderabad/?hl=en"
 									target="_blank"
@@ -76,11 +69,7 @@ export default function Footer() {
 								BITS PILANI Hyderabad Campus, Jawahar Nagar, Shameerpet,
 								Hyderabad Telangana 500078{" "}
 							</a>
-							<button className="footer-contact">
-								<Link className="footer-contact-us" to="/contactus">
-									Contact Us
-								</Link>
-							</button>
+							
 						</div>
 						<div className="footer-col4">
 							<h4 className="footer-heading footer-link">Other Links</h4>

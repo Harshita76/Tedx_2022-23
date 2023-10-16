@@ -42,7 +42,7 @@ function Sponsors() {
 				</div>
 			</div>
 			<div className="spons_heading">
-				<span>PREVIOUS YEAR</span> SPONSORS
+				<span>PAST</span> SPONSORS
 			</div>
 			<div className="outer_box">
 				<Marquee />

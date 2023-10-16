@@ -19,12 +19,7 @@ function Sidebar() {
 				text: "Sponsors",
 			},
 			{ id: 4, iconTag: RiGalleryLine, link: "/gallery", text: "Gallery" },
-			{
-				id: 5,
-				iconTag: RiContactsLine,
-				link: "/contactus",
-				text: "Contact Us",
-			},
+			
 		],
 	});
 	const path = usePath();

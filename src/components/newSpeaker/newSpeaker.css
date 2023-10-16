@@ -48,6 +48,7 @@
   .speaker-image {
     position: relative;
     width: 100%;
+    
     border-radius: 10px;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
     transition: all 0.5s ease;
@@ -72,13 +73,16 @@
     transform: translate3d(50px);
   }
   .cardd:hover .speaker-image {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transform: translate3d(50px);
   }
-  .tittle{
+  .tittle {
     margin-top: 5px;
     width: 100%;
-    color: rgb(220, 220, 220);
+    font-family: "Cinzel", serif;
+    background: -webkit-linear-gradient(#b96767, #ffffff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   .card p {
     width: 100%;

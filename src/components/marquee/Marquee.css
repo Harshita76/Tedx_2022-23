@@ -1,5 +1,5 @@
 /* Marquee Styling */
-/* .marquee {
+ .marquee {
 	width: 90vw;
 	height: fit-content;
 	padding: 10px;
@@ -17,7 +17,7 @@
 	flex-direction: row;
     	flex-wrap: wrap;
 }
-}
+
 
 .marquee-content li {
 	width: 26vw;

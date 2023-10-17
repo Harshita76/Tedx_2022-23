@@ -79,7 +79,7 @@
   .tittle {
     margin-top: 5px;
     width: 100%;
-    font-family: "Cinzel", serif;
+    /*font-family: "Cinzel", serif;*/
     background: -webkit-linear-gradient(#b96767, #ffffff);
     background-clip: text;
     -webkit-text-fill-color: transparent;

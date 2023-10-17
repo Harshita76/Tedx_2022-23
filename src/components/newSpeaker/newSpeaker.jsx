@@ -60,7 +60,7 @@ const Newspeaker = () => {
 >
 <div class="imgbox"> <img className="speaker-image"  src={item.image} alt="speaker image" />
 <h2 className="tittle">{item.title} </h2>
-<h4 className='tittle'>{item.profession}</h4>
+<h7 className='tittle'>{item.profession}</h7>
 </div>
      <div className='content'>
          <h3 className="slideLink">{item.link1 ? <a href={item.link1}><FaFacebook className="fa" /></a> : <div />} </h3>

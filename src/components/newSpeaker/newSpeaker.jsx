@@ -48,9 +48,11 @@ const Newspeaker = () => {
   {/* </div> */}
    <div className="cardGrid">
   {slides.map((item) => (
+  
   <div key ={item.id}>
+    <a href={item.link1}>
   <div className="cardd"
-//   ref={cardRef}
+
 //   style={{
 //     transform: `rotateX(${xRotation}deg) rotateY(${yRotation}deg)`,
 //   }}
@@ -58,12 +60,13 @@ const Newspeaker = () => {
 //   onMouseEnter={handleMouseEnter}
 //   onMouseLeave={handleMouseLeave}
 >
+
 <div class="imgbox"> <img className="speaker-image"  src={item.image} alt="speaker image" />
 <h2 className="tittle">{item.title} </h2>
 <h7 className='tittle'>{item.profession}</h7>
 </div>
      <div className='content'>
-         <h3 className="slideLink">{item.link1 ? <a href={item.link1}><FaFacebook className="fa" /></a> : <div />} </h3>
+         
           <h3 className="slideLink">{item.link2 ? <a href={item.link2}><FaInstagram className="in" /></a> : <div />} </h3>
           <h3 className="slideLink">{item.link3 ? <a href={item.link3}><FaYoutube className="yo" /></a> : <div />} </h3>
           <h3 className="slideLink">{item.link4 ? <a href={item.link4}><FaTwitter className="tw" /></a> : <div />} </h3>
@@ -71,9 +74,11 @@ const Newspeaker = () => {
      
          {/* <p>{item.description}</p> */}
         
-    </div>  
+    </div> 
+    
     </div>
-  
+    </a> 
+    
  </div>
     ))} 
      </div>

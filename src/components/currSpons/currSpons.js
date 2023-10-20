@@ -8,10 +8,10 @@ import "./currSpons.css"
 
 function Spons() {
     const sponsdata = [
-		{ id: 1, pic: img1 },
-		{ id: 2, pic: img2 },
-		{ id: 3, pic: img3 },
-		{ id: 4, pic: img4 },
+		{ id: 1, pic: img1, link: "https://fablabs.in/" },
+		{ id: 2, pic: img2, link:"https://unstop.com/" },
+		{ id: 3, pic: img3, link:"https://www.easemytrip.com/" },
+		{ id: 4, pic: img4 , link:"https://www.instax.in/"},
     ];
   return (
     <>
@@ -20,7 +20,7 @@ function Spons() {
   {sponsdata.map((item) => (
   <div key ={item.id}>
   <div className="spons">
-      <img className="spons--image" src={item.pic} alt="spons logo" />
+    <a href={item.link}>  <img className="spons--image" src={item.pic} alt="spons logo" /></a>
    
     </div>
   

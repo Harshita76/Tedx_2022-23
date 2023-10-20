@@ -83,6 +83,7 @@
     background: -webkit-linear-gradient(#b96767, #ffffff);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: white;
   }
   .card p {
     width: 100%;

@@ -76,8 +76,8 @@ export const slides = [
     
     { id:8, 
       title: "Pankaj Bhadouria",
-      profession :"Chef",
-      link2: "https://www.instagram.com/masterchefpankajbhadouria/?hl=en",
+      profession :"Chef, Author, Entrepreneur",
+      link1: "https://www.instagram.com/masterchefpankajbhadouria/?hl=en",
      // link4: "https://twitter.com/manasa_varanasi",
      // description: "Manasa Varanasi, a  quintessence of multifacetedness and grace, was crowned Miss India World 2020 and will represent India at the 70th Miss World pageant in December 2021. She is a  Financial Information Exchange(FIX) analyst and enjoys exploring the world of finance. She is the epitome of finding balance between one’s career and passion while constantly working towards one’s goals. Manasa truly inspires us to embrace the opportunities that come our way and make the most of them. She makes it evident that commitment and finding balance is the key to success.",
      image: img8

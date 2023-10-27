@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import Ham from "./components/hamburger/Ham";
 import Gallery from "./pages/gallery/Gallery";
 import ContactUs from "./pages/contactUs/contactUs";
+import Executives from "./pages/executives/Executives";
 import Payment from "./pages/payment/Payment";
 import termandcond from "./components/other links/termandcond"
 import PrivacyPolicy from "./components/other links/privacy_policy";
@@ -22,6 +23,7 @@ function App() {
 				<Route path="/sponsor" component={Sponsors} />
 				<Route path="/speaker" component={Speakers} />
 				<Route path="/gallery" component={Gallery} />
+				<Route path="/executives" component={Executives} />
 				<Route path="/contactus" component={ContactUs} />
 				<Route path="/payments" component={Payment} />
 				<Route path="/termandcond" component={termandcond}/>

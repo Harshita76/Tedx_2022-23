@@ -11,7 +11,7 @@ export default function Theme() {
 		<>
 			<section className="theme">
 				<Fade direction="up" delay={300} triggerOnce>
-					<h2 style={{textTransform:"uppercase"}}>Theme - Reflective Tapestry </h2>
+					<h2 style={{textTransform:"uppercase"}}><span className="white">Theme - </span>Reflective Tapestry </h2>
 				</Fade>
 				<div className="main">
 					<div className="theme-img">

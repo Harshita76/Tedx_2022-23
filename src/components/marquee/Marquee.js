@@ -26,7 +26,7 @@ function Marquee() {
 		{ id: 9, pic: pic9 },
 		{ id: 10, pic: pic10 },
 		{ id: 11, pic: pic11 },
-		
+			
 	];
 	return (
 		<>

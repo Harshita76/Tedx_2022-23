@@ -63,7 +63,7 @@ export default function Footer() {
 								tedx@hyderabad.bits-pilani.ac.in
 							</a>
 							<a className="footer-email footer-link" href="#">
-								+91 70003 66501
+								+91 94796 65966
 							</a>
 							<a className="footer-email footer-link" href="#">
 								BITS PILANI Hyderabad Campus, Jawahar Nagar, Shameerpet,

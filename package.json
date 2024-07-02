@@ -2,7 +2,7 @@
   "name": "z",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tedxbitshyderabad.org/",
+  "homepage": "https://github.com/Harshita76/Tedx_2022-23/blob/main/src/pages/homepage/Homepage.js",
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",

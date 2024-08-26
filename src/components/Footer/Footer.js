@@ -66,6 +66,9 @@ export default function Footer() {
                 +91 9479665966
               </a>
               <a className="footer-email footer-link" href="#">
+                +91 7805858447
+              </a>
+              <a className="footer-email footer-link" href="#">
                 BITS PILANI Hyderabad Campus, Jawahar Nagar, Shameerpet,
                 Hyderabad Telangana 500078{" "}
               </a>

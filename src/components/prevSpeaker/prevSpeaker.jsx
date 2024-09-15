@@ -16,7 +16,7 @@ function prevSpeaker() {
   <div className="card">
       <img className="speaker--image" src={item.image} alt="speaker image" />
      <div className='card-body'>
-         <h2>{item.title} </h2>
+         <h2>{item.title}</h2>
          <h3 className="slideLink">{item.link1 ? <a href={item.link1}><FaFacebook className="fa" /></a> : <div />} </h3>
           <h3 className="slideLink">{item.link2 ? <a href={item.link2}><FaInstagram className="in" /></a> : <div />} </h3>
           <h3 className="slideLink">{item.link3 ? <a href={item.link3}><FaYoutube className="yo" /></a> : <div />} </h3>

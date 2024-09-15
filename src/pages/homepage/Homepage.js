@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import tedxlogo from "../../assets/images/TedXLogo.webp";
-import ticket from "../../assets/images/ticket.png";
+// import ticket from "../../assets/images/ticket.png";
+import banner_temp from "../../assets/images/banner_temp.png"
 import "../../components/homepage/homepage_animation.js";
 import { canvasDots } from "../../components/homepage/homepage_animation.js";
 import { particles } from "../../components/homepage/homepage_paricles";
@@ -48,12 +49,12 @@ const Homepage = () => {
 				</div>
 
 				<div classname="datedate">
-				<Homepagedate />
+				{/* <Homepagedate /> */}
 				</div>
 				
-					<img className="ticket_image"src={ticket} alt =""/>
+					<img className="ticket_image"src={banner_temp} alt =""/>
 				
-				<BuyTicketbutton />
+				{/* <BuyTicketbutton /> */}
 				
 				</div>
 

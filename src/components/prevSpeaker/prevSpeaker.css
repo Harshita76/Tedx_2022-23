@@ -35,6 +35,7 @@
     transform: scale(1);
     transition: 1s ease-in-out;
 }
+
 .card-body{
     width: 100%;
     height: 100%;

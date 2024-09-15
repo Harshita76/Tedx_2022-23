@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d56b200.chunk.css",
-    "main.js": "/static/js/main.be5132f6.chunk.js",
-    "main.js.map": "/static/js/main.be5132f6.chunk.js.map",
+    "main.css": "/static/css/main.6a5545cb.chunk.css",
+    "main.js": "/static/js/main.4afd45d8.chunk.js",
+    "main.js.map": "/static/js/main.4afd45d8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f21fac85.js",
     "runtime-main.js.map": "/static/js/runtime-main.f21fac85.js.map",
     "static/css/2.4ce9e501.chunk.css": "/static/css/2.4ce9e501.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.e76eb7ca.chunk.js.map": "/static/js/2.e76eb7ca.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4ce9e501.chunk.css.map": "/static/css/2.4ce9e501.chunk.css.map",
-    "static/css/main.7d56b200.chunk.css.map": "/static/css/main.7d56b200.chunk.css.map",
+    "static/css/main.6a5545cb.chunk.css.map": "/static/css/main.6a5545cb.chunk.css.map",
     "static/js/2.e76eb7ca.chunk.js.LICENSE.txt": "/static/js/2.e76eb7ca.chunk.js.LICENSE.txt",
     "static/media/1.87ae2888.webp": "/static/media/1.87ae2888.webp",
     "static/media/1.d0b2a39c.webp": "/static/media/1.d0b2a39c.webp",
@@ -49,7 +49,7 @@
     "static/media/Chhavi.f41734a2.jpeg": "/static/media/Chhavi.f41734a2.jpeg",
     "static/media/Divyansh.8733ecbb.jpg": "/static/media/Divyansh.8733ecbb.jpg",
     "static/media/Harshita.0e52a003.jpg": "/static/media/Harshita.0e52a003.jpg",
-    "static/media/Krish_.e15e73e2.jpg": "/static/media/Krish_.e15e73e2.jpg",
+    "static/media/Krish_.019dec4e.jpg": "/static/media/Krish_.019dec4e.jpg",
     "static/media/RevealingSoon.c4078eaa.png": "/static/media/RevealingSoon.c4078eaa.png",
     "static/media/Riddhi_.8eddb77a.jpg": "/static/media/Riddhi_.8eddb77a.jpg",
     "static/media/Srija.6e4dbb94.jpeg": "/static/media/Srija.6e4dbb94.jpeg",
@@ -59,6 +59,7 @@
     "static/media/Utkarsh.f4869041.jpg": "/static/media/Utkarsh.f4869041.jpg",
     "static/media/Vaishnav.923780da.jpeg": "/static/media/Vaishnav.923780da.jpeg",
     "static/media/audi.344a24f0.png": "/static/media/audi.344a24f0.png",
+    "static/media/banner_temp.333b4cae.png": "/static/media/banner_temp.333b4cae.png",
     "static/media/black.a5016c6e.webp": "/static/media/black.a5016c6e.webp",
     "static/media/img1.7d377e03.jpg": "/static/media/img1.7d377e03.jpg",
     "static/media/img2.195733a5.JPG": "/static/media/img2.195733a5.JPG",
@@ -70,14 +71,13 @@
     "static/media/img8.027c669b.jpg": "/static/media/img8.027c669b.jpg",
     "static/media/Rules.css": "/static/media/rules-bg.59cdfa57.webp",
     "static/media/sbi.92f5b56a.png": "/static/media/sbi.92f5b56a.png",
-    "static/media/theme.b3ed2e06.webp": "/static/media/theme.b3ed2e06.webp",
-    "static/media/ticket.b3b47663.png": "/static/media/ticket.b3b47663.png"
+    "static/media/theme.b3ed2e06.webp": "/static/media/theme.b3ed2e06.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.f21fac85.js",
     "static/css/2.4ce9e501.chunk.css",
     "static/js/2.e76eb7ca.chunk.js",
-    "static/css/main.7d56b200.chunk.css",
-    "static/js/main.be5132f6.chunk.js"
+    "static/css/main.6a5545cb.chunk.css",
+    "static/js/main.4afd45d8.chunk.js"
   ]
 }

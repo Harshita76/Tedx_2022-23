@@ -1,10 +1,10 @@
 .landing-page {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    /* z-index: 1; */
+    justify-content: space-evenly;
 }
 
 #title {
@@ -16,7 +16,7 @@
     font-size: 50px;
 }
 
-.landing-page img {
+.landing-page img.sponsorpage-logo {
     position: absolute;
     z-index: 1;
     top: 3vh;
@@ -51,7 +51,7 @@
     font-size: 50px;
 }
 
-.spons_heading>span {
+.spons_heading > span {
     color: #e62b1e;
 }
 
@@ -59,9 +59,8 @@
     background-color: rgba(0, 0, 0, 0.35);
     border-radius: 0 50px 0 50px;
     max-width: 800px;
-    margin: auto;
-    /* position: absolute; */
-    top: 35vh;
+    margin: 40px auto;
+    /* top: 35vh; */
     z-index: 1;
     font-family: Arial, Helvetica, sans-serif;
     padding: 50px;
@@ -78,8 +77,113 @@
     font-size: 20px;
 }
 
-@media screen and (max-width:730px) {
+@media screen and (max-width: 730px) {
     .spons-title {
         transform: scale(0.7);
+    }
+}
+
+/* Platinum Sponsor Section */
+.platinum-partner-section {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    flex-direction: column;
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.platinum-partner-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.platinum-partner-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.platinum-partner-image:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive styles for Title Sponsor */
+@media (max-width: 1024px) {
+    .platinum-partner-section h2 {
+        font-size: 2rem;
+    }
+
+    .platinum-partner-image {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .platinum-partner-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .platinum-partner-image {
+        max-width: 250px;
+    }
+}
+
+/* Outreach Partner Section */
+.outreach-partner-section {
+    width: 500px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    flex-direction: column;
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px 20px;
+    border-radius: 20px;
+}
+
+.outreach-partner-section h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.outreach-partner-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.outreach-partner-image:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive styles for Title Sponsor */
+@media (max-width: 1024px) {
+    .outreach-partner-section h2 {
+        font-size: 2rem;
+    }
+
+    .outreach-partner-image {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .outreach-partner-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .outreach-partner-image {
+        max-width: 250px;
     }
 }

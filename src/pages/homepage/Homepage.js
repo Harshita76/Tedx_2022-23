@@ -49,10 +49,10 @@ const Homepage = () => {
 				</div>
 
 				<div classname="datedate">
-				{/* <Homepagedate /> */}
+				<Homepagedate />
 				</div>
 				
-					<img className="ticket_image"src={banner_temp} alt =""/>
+					{/* <img className="ticket_image"src={banner_temp} alt =""/> */}
 				
 				{/* <BuyTicketbutton /> */}
 				

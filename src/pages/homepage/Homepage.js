@@ -71,7 +71,7 @@ const Homepage = () => {
 			</div>
 			<Newspeaker/>
 			<div className="speak_heading">
-				<span>SPONSORS</span> FOR CONFERENCE 2023
+				<span>SPONSORS</span> FOR CONFERENCE 2024
 			</div>
 				<CurrentSpons/>
 			<div style={{ margin: "20px 60px" }}>

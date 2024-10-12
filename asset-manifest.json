@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.0924efdd.chunk.css",
-    "main.js": "/static/js/main.ee31cdf6.chunk.js",
-    "main.js.map": "/static/js/main.ee31cdf6.chunk.js.map",
+    "main.js": "/static/js/main.ebb79e14.chunk.js",
+    "main.js.map": "/static/js/main.ebb79e14.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5d7f436d.js",
     "runtime-main.js.map": "/static/js/runtime-main.5d7f436d.js.map",
     "static/css/2.4ce9e501.chunk.css": "/static/css/2.4ce9e501.chunk.css",
@@ -73,6 +73,10 @@
     "static/media/Rules.css": "/static/media/rules-bg.59cdfa57.webp",
     "static/media/sbi.92f5b56a.png": "/static/media/sbi.92f5b56a.png",
     "static/media/skyevents.d7ea6eb7.jpg": "/static/media/skyevents.d7ea6eb7.jpg",
+    "static/media/sponsor1_2024.c3782982.png": "/static/media/sponsor1_2024.c3782982.png",
+    "static/media/sponsor2_2024.4ff3bc55.png": "/static/media/sponsor2_2024.4ff3bc55.png",
+    "static/media/sponsor3_2024.2296c525.png": "/static/media/sponsor3_2024.2296c525.png",
+    "static/media/sponsor4_2024.1d0001e6.png": "/static/media/sponsor4_2024.1d0001e6.png",
     "static/media/theme.b3ed2e06.webp": "/static/media/theme.b3ed2e06.webp"
   },
   "entrypoints": [
@@ -80,6 +84,6 @@
     "static/css/2.4ce9e501.chunk.css",
     "static/js/2.496a449d.chunk.js",
     "static/css/main.0924efdd.chunk.css",
-    "static/js/main.ee31cdf6.chunk.js"
+    "static/js/main.ebb79e14.chunk.js"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.68c86b73.chunk.css",
-    "main.js": "/static/js/main.208743b3.chunk.js",
-    "main.js.map": "/static/js/main.208743b3.chunk.js.map",
+    "main.css": "/static/css/main.712a3cf3.chunk.css",
+    "main.js": "/static/js/main.ee31cdf6.chunk.js",
+    "main.js.map": "/static/js/main.ee31cdf6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5d7f436d.js",
     "runtime-main.js.map": "/static/js/runtime-main.5d7f436d.js.map",
     "static/css/2.4ce9e501.chunk.css": "/static/css/2.4ce9e501.chunk.css",
-    "static/js/2.d1f514d7.chunk.js": "/static/js/2.d1f514d7.chunk.js",
-    "static/js/2.d1f514d7.chunk.js.map": "/static/js/2.d1f514d7.chunk.js.map",
+    "static/js/2.496a449d.chunk.js": "/static/js/2.496a449d.chunk.js",
+    "static/js/2.496a449d.chunk.js.map": "/static/js/2.496a449d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4ce9e501.chunk.css.map": "/static/css/2.4ce9e501.chunk.css.map",
-    "static/css/main.68c86b73.chunk.css.map": "/static/css/main.68c86b73.chunk.css.map",
-    "static/js/2.d1f514d7.chunk.js.LICENSE.txt": "/static/js/2.d1f514d7.chunk.js.LICENSE.txt",
+    "static/css/main.712a3cf3.chunk.css.map": "/static/css/main.712a3cf3.chunk.css.map",
+    "static/js/2.496a449d.chunk.js.LICENSE.txt": "/static/js/2.496a449d.chunk.js.LICENSE.txt",
     "static/media/1.87ae2888.webp": "/static/media/1.87ae2888.webp",
     "static/media/1.d0b2a39c.webp": "/static/media/1.d0b2a39c.webp",
     "static/media/10.049be045.webp": "/static/media/10.049be045.webp",
@@ -54,8 +54,8 @@
     "static/media/Riddhi_.8eddb77a.jpg": "/static/media/Riddhi_.8eddb77a.jpg",
     "static/media/Srija.6e4dbb94.jpeg": "/static/media/Srija.6e4dbb94.jpeg",
     "static/media/Swayam.7e12110a.jpg": "/static/media/Swayam.7e12110a.jpg",
-    "static/media/THEME.5fe8fd49.png": "/static/media/THEME.5fe8fd49.png",
     "static/media/TedXLogo.8be2861f.webp": "/static/media/TedXLogo.8be2861f.webp",
+    "static/media/Theme_2024.d4794a0f.png": "/static/media/Theme_2024.d4794a0f.png",
     "static/media/Utkarsh.f4869041.jpg": "/static/media/Utkarsh.f4869041.jpg",
     "static/media/Vaishnav.923780da.jpeg": "/static/media/Vaishnav.923780da.jpeg",
     "static/media/audi.344a24f0.png": "/static/media/audi.344a24f0.png",
@@ -78,8 +78,8 @@
   "entrypoints": [
     "static/js/runtime-main.5d7f436d.js",
     "static/css/2.4ce9e501.chunk.css",
-    "static/js/2.d1f514d7.chunk.js",
-    "static/css/main.68c86b73.chunk.css",
-    "static/js/main.208743b3.chunk.js"
+    "static/js/2.496a449d.chunk.js",
+    "static/css/main.712a3cf3.chunk.css",
+    "static/js/main.ee31cdf6.chunk.js"
   ]
 }

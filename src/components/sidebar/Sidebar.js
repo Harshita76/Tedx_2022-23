@@ -3,6 +3,7 @@ import "./Sidebar.css";
 import { FiMic } from "react-icons/fi";
 import { RiContactsLine, RiGalleryLine } from "react-icons/ri";
 import { HiOutlineHome, HiOutlineUserGroup } from "react-icons/hi";
+import { ImLink } from "react-icons/im";
 import { PiCrosshair } from "react-icons/pi";
 import { Link } from "react-router-dom";
 import { usePath } from "hookrouter";
@@ -20,6 +21,8 @@ function Sidebar() {
 			},
 			{ id: 4, iconTag: RiGalleryLine, link: "/gallery", text: "Gallery" },
 			{ id: 5, iconTag: PiCrosshair, link: "/executives", text: "Executives" },
+			{ id: 6, iconTag: ImLink, link: "/tlog", text: "TLog" },
+
 			
 		],
 	});

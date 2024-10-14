@@ -13,6 +13,7 @@ import Payment from "./pages/payment/Payment";
 import termandcond from "./components/other links/termandcond"
 import PrivacyPolicy from "./components/other links/privacy_policy";
 import RefundPolicy from "./components/other links/refund_policy";
+import Tlog from "./pages/Tlog/Tlog";
 function App() {
 	return (
 		<>
@@ -29,6 +30,7 @@ function App() {
 				<Route path="/termandcond" component={termandcond}/>
 				<Route path='/privacypolicy' component={PrivacyPolicy}/>
 				<Route path='/refundpolicy' component={RefundPolicy}/>
+				<Route path='/tlog' component={Tlog}/>
 			</Switch>
 			<Footer />
 		</>

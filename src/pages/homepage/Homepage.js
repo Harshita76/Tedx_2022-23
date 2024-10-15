@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import tedxlogo from "../../assets/images/TedXLogo.webp";
+import ticket_image from '../../assets/images/Tedx_Ticket.jpg';
 // import ticket from "../../assets/images/ticket.png";
 import banner_temp from "../../assets/images/banner_temp.png"
 import "../../components/homepage/homepage_animation.js";
@@ -11,7 +12,7 @@ import CurrentSpons from "../../components/currSpons/currSpons"
 import "../../components/homepage/homepage_animation.js";
 import "./Homepage.css";
 import Rules from "../../components/Rules/Rules";
-import BuyTicketbutton  from "../../components/buyButton/buyButton";
+import BuyTicketbutton from "../../components/buyButton/buyButton";
 import { useWindowSize } from "react-hooks-window-size";
 import Highlights from "../../components/highlights/Highlights";
 
@@ -45,35 +46,37 @@ const Homepage = () => {
 							BUY TICKETS
 						</div>
 					</Link>*/}
-                   
+
 				</div>
 
-				<div classname="datedate">
-				<Homepagedate />
+				<img className="ticket_image" src={ticket_image} alt="TedX Ticket" />
+
+				<div className="datedate">
+					<Homepagedate />
 				</div>
-				
-					{/* <img className="ticket_image"src={banner_temp} alt =""/> */}
-				
+
+				{/* <img className="ticket_image"src={banner_temp} alt =""/> */}
+
 				{/* <BuyTicketbutton /> */}
-				
-				</div>
 
-				
+			</div>
+
+
 
 			<canvas className="dots" />
-			
-			
-			
+
+
+
 			<Theme />
-			
+
 			<div className="speak_heading">
-				<span>SPEAKERS</span> FOR CONFERENCE 2023
+				<span>SPEAKERS</span> FOR CONFERENCE 2024
 			</div>
-			<Newspeaker/>
+			<Newspeaker />
 			<div className="speak_heading">
 				<span>SPONSORS</span> FOR CONFERENCE 2024
 			</div>
-				<CurrentSpons/>
+			<CurrentSpons />
 			<div style={{ margin: "20px 60px" }}>
 				<Highlights />
 			</div>

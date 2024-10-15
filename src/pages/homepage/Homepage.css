@@ -20,7 +20,7 @@ canvas {
   justify-content: center;
   z-index: 15;
   margin-bottom: 1.5rem;
-  
+
 }
 
 .homepage {
@@ -30,9 +30,10 @@ canvas {
   height: 100vh;
   flex-direction: column;
 }
-.datedate{
-display: flex;
-justify-content: center;
+
+.datedate {
+  display: flex;
+  justify-content: center;
 
 
 }
@@ -68,88 +69,94 @@ justify-content: center;
 @media only screen and (max-width: 1211px) {
 
   .canvas {
-      position: absolute;
-      height: 100%;
-      width: 100%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
   }
+
   .homepage {
-      text-align: center;
+    text-align: center;
   }
+
   .tedx_logo {
-      height: 15vh;
-      width: 90%;
-      align-items: left;
+    height: 15vh;
+    width: 90%;
+    align-items: left;
   }
 
 }
 
 /* CSS */
 .buy_ticket {
-background-color: transparent;
-border: 1px solid #fd4c2d;
-box-sizing: border-box;
-color: #00132C;
-font-family: "Avenir Next LT W01 Bold",sans-serif;
-font-size: 16px;
-font-weight: 700;
-line-height: 24px;
-padding: 16px 23px;
-position: relative;
-text-decoration: none;
-user-select: none;
--webkit-user-select: none;
-touch-action: manipulation;
-width: fit-content;
-margin: auto;
+  background-color: transparent;
+  border: 1px solid #fd4c2d;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  margin: auto;
 }
 
 .buy_ticket:hover,
 .buy_ticket:active {
-outline: 0;
-border: 1px solid #ffffff;
+  outline: 0;
+  border: 1px solid #ffffff;
 }
 
 .buy_ticket:hover {
-background-color: transparent;
-cursor: pointer;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .buy_ticket:before {
-background-color: #f6ddd5;
-content: "";
-height: calc(100% + 3px);
-position: absolute;
-right: -7px;
-top: -9px;
-transition: background-color 300ms ease-in;
-width: 100%;
-z-index: -1;
+  background-color: #f6ddd5;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
 }
 
 .buy_ticket:hover:before {
-background-color: #fd4c2d;
+  background-color: #fd4c2d;
 }
 
 @media (min-width: 768px) {
 
-.buy_ticket {
-  padding: 16px 32px;
-}
+  .buy_ticket {
+    padding: 16px 32px;
+  }
 }
 
-.ticketReveal{
+.ticketReveal {
   margin-top: 5%;
 }
-.ticket_image{
+
+.ticket_image {
   width: 400px;
 }
-.ticket_image{
-  margin-top: 1rem;
-  width: 60%;
-  
 
-  
+.ticket_image {
+  margin-top: 3rem;
+  width: 35%;
 }
+
+.datedate {
+  margin-top: 50px;
+}
+
 @media only screen and (max-width: 768px) {
   .ticket_image {
     width: 95%;

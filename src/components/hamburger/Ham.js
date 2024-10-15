@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import { FiMic } from "react-icons/fi";
 import { RiContactsLine, RiGalleryLine } from "react-icons/ri";
 import { HiOutlineHome, HiOutlineUserGroup } from "react-icons/hi";
+import { ImLink } from "react-icons/im";
+import { PiCrosshair } from "react-icons/pi";
 
 import { useEffect } from "react";
 const StyledMenu = styled.nav`
@@ -49,23 +51,29 @@ const StyledMenu = styled.nav`
 	}
 `;
 
-const Menu = ({ open, clicked, setClicked}) => {
+const Menu = ({ open, clicked, setClicked }) => {
 	return (
 		<StyledMenu open={open}>
 			<Link to="/">
-				<a href="/" onClick={() => setClicked(!clicked)} ><HiOutlineHome style={{color:"red"}} /> Home</a>
+				<a href="/" onClick={() => setClicked(!clicked)} ><HiOutlineHome style={{ color: "red" }} /> Home</a>
 			</Link>
 			<Link to="/speaker">
-				<a href="/" onClick={() => setClicked(!clicked)}><FiMic style={{color:"red"}}/> Speakers</a>
+				<a href="/" onClick={() => setClicked(!clicked)}><FiMic style={{ color: "red" }} /> Speakers</a>
 			</Link>
-			
+
 			<Link to="/sponsor">
-				<a href="/" onClick={() => setClicked(!clicked)}><HiOutlineUserGroup style={{color:"red"}} />  Sponsors</a>
+				<a href="/" onClick={() => setClicked(!clicked)}><HiOutlineUserGroup style={{ color: "red" }} />  Sponsors</a>
 			</Link>
-            <Link to="/gallery">
-				<a href="/" onClick={() => setClicked(!clicked)}><RiGalleryLine style={{color:"red"}} />  Gallery</a>
+			<Link to="/gallery">
+				<a href="/" onClick={() => setClicked(!clicked)}><RiGalleryLine style={{ color: "red" }} />  Gallery</a>
 			</Link>
-            
+			<Link to="/executives">
+				<a href="/" onClick={() => setClicked(!clicked)}><PiCrosshair style={{ color: "red" }} />  Executives</a>
+			</Link>
+			<Link to="/tlog">
+				<a href="/" onClick={() => setClicked(!clicked)}><ImLink style={{ color: "red" }} />  TLog</a>
+			</Link>
+
 		</StyledMenu>
 	);
 };
@@ -106,7 +114,7 @@ const StyledBurger = styled.button`
 		:nth-child(2) {
 			opacity: ${({ open }) => (open ? "0" : "1")};
 			transform: ${({ open }) =>
-				open ? "translateX(-20px)" : "translateX(0)"};
+		open ? "translateX(-20px)" : "translateX(0)"};
 		}
 
 		:nth-child(3) {
@@ -127,16 +135,16 @@ const Burger = ({ open, setOpen }) => {
 
 const Ham = () => {
 	const [open, setOpen] = React.useState(false);
-    const [clicked, setClicked] = React.useState(false);
-    const node = React.useRef();
-    useEffect(() => {
-        setOpen(false);
-    }, [clicked])
+	const [clicked, setClicked] = React.useState(false);
+	const node = React.useRef();
+	useEffect(() => {
+		setOpen(false);
+	}, [clicked])
 	return (
 		<div className="ham">
 			<div ref={node}>
 				<Burger open={open} setOpen={setOpen} />
-				<Menu open={open} setOpen={setOpen} clicked={clicked} setClicked={setClicked}/>
+				<Menu open={open} setOpen={setOpen} clicked={clicked} setClicked={setClicked} />
 			</div>
 		</div>
 	);

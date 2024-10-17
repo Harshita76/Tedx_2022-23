@@ -57,7 +57,7 @@ const Homepage = () => {
 
 				{/* <img className="ticket_image"src={banner_temp} alt =""/> */}
 
-				{/* <BuyTicketbutton /> */}
+				<BuyTicketbutton />
 
 			</div>
 

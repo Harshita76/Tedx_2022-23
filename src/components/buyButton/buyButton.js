@@ -15,17 +15,19 @@ export default function BuyTicketbutton(){
   };
 
   return (
-    
-      <div>
-        
-             <button
-      className="button"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-      SOLD OUT !
+    <div>
+      <a
+        href="https://unstop.com/o/m3gYVIP?lb=NJfCCy0C&utm_medium=Share&utm_source=shortUrl"
+        target="_blank"
+      >
+        <button
+          className="button"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
+          BUY NOW !
         </button>
-    
-      </div>
- );
+      </a>
+    </div>
+  );
 }

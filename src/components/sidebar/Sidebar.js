@@ -19,9 +19,9 @@ function Sidebar() {
 				link: "/sponsor",
 				text: "Sponsors",
 			},
-			{ id: 4, iconTag: RiGalleryLine, link: "/gallery", text: "Gallery" },
+			{ id: 4, iconTag: ImLink, link: "/tlog", text: "TLog" },
 			{ id: 5, iconTag: PiCrosshair, link: "/executives", text: "Executives" },
-			{ id: 6, iconTag: ImLink, link: "/tlog", text: "TLog" },
+			{ id: 6, iconTag: RiGalleryLine, link: "/gallery", text: "Gallery" },
 
 			
 		],

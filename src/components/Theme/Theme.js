@@ -11,14 +11,22 @@ export default function Theme() {
     <>
       <section className="theme">
         <Fade direction="up" delay={300} triggerOnce>
-          <div>
+          <div className="atk-heading">
             <h2>
-              <span className="red"> THEME </span>
+              <span
+                className="red"
+                style={{
+                  fontWeight: "normal",
+                }}
+              >
+                {" "}
+                THEME{" "}
+              </span>
               <span className="white"> FOR CONFERENCE 2024 </span>
             </h2>
           </div>
 
-          <h2 style={{ textTransform: "uppercase" }}>
+          <h2 style={{ textTransform: "uppercase", fontWeight: "normal" }}>
             <span className="white">Ephemeral </span>Panorama{" "}
           </h2>
         </Fade>

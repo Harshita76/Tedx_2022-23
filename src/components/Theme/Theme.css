@@ -45,6 +45,7 @@
 
 span {
   color: rgb(255, 42, 5);
+  font-weight: normal;
 }
 
 .theme-text p {
@@ -102,3 +103,5 @@ span {
 .red {
   color: red;
 }
+
+

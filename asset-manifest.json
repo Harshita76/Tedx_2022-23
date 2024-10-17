@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a2a00d0.chunk.css",
-    "main.js": "/static/js/main.d76dba5d.chunk.js",
-    "main.js.map": "/static/js/main.d76dba5d.chunk.js.map",
+    "main.css": "/static/css/main.acd7f711.chunk.css",
+    "main.js": "/static/js/main.4af72ca7.chunk.js",
+    "main.js.map": "/static/js/main.4af72ca7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.60a35c49.js",
     "runtime-main.js.map": "/static/js/runtime-main.60a35c49.js.map",
     "static/css/2.4ce9e501.chunk.css": "/static/css/2.4ce9e501.chunk.css",
-    "static/js/2.5b4e5548.chunk.js": "/static/js/2.5b4e5548.chunk.js",
-    "static/js/2.5b4e5548.chunk.js.map": "/static/js/2.5b4e5548.chunk.js.map",
+    "static/js/2.046fbd81.chunk.js": "/static/js/2.046fbd81.chunk.js",
+    "static/js/2.046fbd81.chunk.js.map": "/static/js/2.046fbd81.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4ce9e501.chunk.css.map": "/static/css/2.4ce9e501.chunk.css.map",
-    "static/css/main.6a2a00d0.chunk.css.map": "/static/css/main.6a2a00d0.chunk.css.map",
-    "static/js/2.5b4e5548.chunk.js.LICENSE.txt": "/static/js/2.5b4e5548.chunk.js.LICENSE.txt",
+    "static/css/main.acd7f711.chunk.css.map": "/static/css/main.acd7f711.chunk.css.map",
+    "static/js/2.046fbd81.chunk.js.LICENSE.txt": "/static/js/2.046fbd81.chunk.js.LICENSE.txt",
     "static/media/1.87ae2888.webp": "/static/media/1.87ae2888.webp",
     "static/media/1.d0b2a39c.webp": "/static/media/1.d0b2a39c.webp",
     "static/media/10.049be045.webp": "/static/media/10.049be045.webp",
@@ -52,7 +52,9 @@
     "static/media/Divyansh.8733ecbb.jpg": "/static/media/Divyansh.8733ecbb.jpg",
     "static/media/Harshita.0e52a003.jpg": "/static/media/Harshita.0e52a003.jpg",
     "static/media/Krish_.019dec4e.jpg": "/static/media/Krish_.019dec4e.jpg",
-    "static/media/Nitin_2024.a75fdfa6.jpg": "/static/media/Nitin_2024.a75fdfa6.jpg",
+    "static/media/LT_gen_A_arjun.50f84983.jpg": "/static/media/LT_gen_A_arjun.50f84983.jpg",
+    "static/media/Nitin_2024.ba76487d.jpg": "/static/media/Nitin_2024.ba76487d.jpg",
+    "static/media/Pallavi.a1353b4f.jpg": "/static/media/Pallavi.a1353b4f.jpg",
     "static/media/RevealingSoon.c4078eaa.png": "/static/media/RevealingSoon.c4078eaa.png",
     "static/media/Riddhi_.8eddb77a.jpg": "/static/media/Riddhi_.8eddb77a.jpg",
     "static/media/Srija.6e4dbb94.jpeg": "/static/media/Srija.6e4dbb94.jpeg",
@@ -76,6 +78,8 @@
     "static/media/img6.a9312e25.jpg": "/static/media/img6.a9312e25.jpg",
     "static/media/img7.4896a0ac.jpg": "/static/media/img7.4896a0ac.jpg",
     "static/media/img8.027c669b.jpg": "/static/media/img8.027c669b.jpg",
+    "static/media/mad_chef.124474c2.jpg": "/static/media/mad_chef.124474c2.jpg",
+    "static/media/pavithra_lakshami.2b3c0b3d.jpg": "/static/media/pavithra_lakshami.2b3c0b3d.jpg",
     "static/media/Rules.css": "/static/media/rules-bg.59cdfa57.webp",
     "static/media/sbi.92f5b56a.png": "/static/media/sbi.92f5b56a.png",
     "static/media/skyevents.d7ea6eb7.jpg": "/static/media/skyevents.d7ea6eb7.jpg",
@@ -90,8 +94,8 @@
   "entrypoints": [
     "static/js/runtime-main.60a35c49.js",
     "static/css/2.4ce9e501.chunk.css",
-    "static/js/2.5b4e5548.chunk.js",
-    "static/css/main.6a2a00d0.chunk.css",
-    "static/js/main.d76dba5d.chunk.js"
+    "static/js/2.046fbd81.chunk.js",
+    "static/css/main.acd7f711.chunk.css",
+    "static/js/main.4af72ca7.chunk.js"
   ]
 }

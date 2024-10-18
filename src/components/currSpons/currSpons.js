@@ -1,12 +1,12 @@
-
-import React from 'react'
-import img1 from '../../assets/images/sponsors-2020/sponsor1_2024.png';
-import img2 from '../../assets/images/sponsors-2020/sponsor2_2024.png';
-import img3 from '../../assets/images/sponsors-2020/sponsor3_2024.png';
-import img4 from '../../assets/images/sponsors-2020/sponsor4_2024.png';
-import img5 from '../../assets/images/sponsors-2020/sponsor5_2024.png'
-import img6 from '../../assets/images/sponsors-2020/sponsor6_2024.png'
-import "./currSpons.css"
+import React from "react";
+import img1 from "../../assets/images/sponsors-2020/sponsor1_2024.png";
+import img2 from "../../assets/images/sponsors-2020/sponsor2_2024.png";
+import img3 from "../../assets/images/sponsors-2020/sponsor3_2024.png";
+import img4 from "../../assets/images/sponsors-2020/sponsor4_2024.png";
+import img5 from "../../assets/images/sponsors-2020/sponsor5_2024.png";
+import img6 from "../../assets/images/sponsors-2020/sponsor6_2024.png";
+import img7 from "../../assets/images/sponsors-2020/sponsor7_2024.png";
+import "./currSpons.css";
 
 function Spons() {
   const sponsdata = [
@@ -16,24 +16,25 @@ function Spons() {
     { id: 3, pic: img3, link: "https://avaanexcess.com/" },
     { id: 4, pic: img4, link: "https://www.easemytrip.com/" },
     { id: 5, pic: img5, link: "https://www.instagram.com/thrilariahyd/?hl=en" },
+    { id: 7, pic: img7, link: "https://siha.co.in/" },
     // { id: 5, pic: img5 , link:"https://www.monsterenergy.com/en-in/"},
   ];
   return (
     <>
-
       <div className="spons-grid">
         {sponsdata.map((item) => (
           <div key={item.id}>
             <div className="spons">
-              <a href={item.link} target='_blank'>  <img className="spons--image" src={item.pic} alt="spons logo" /></a>
-
+              <a href={item.link} target="_blank">
+                {" "}
+                <img className="spons--image" src={item.pic} alt="spons logo" />
+              </a>
             </div>
-
           </div>
         ))}
       </div>
     </>
-  )
+  );
 }
 
-export default Spons
+export default Spons;
